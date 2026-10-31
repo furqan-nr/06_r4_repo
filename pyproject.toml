@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reveal"
+version = "0.0.1"
+description = "Input-feature coverage and pass-level units for regression testing of the Qiskit transpiler"
+requires-python = ">=3.11"
+# Qiskit under test is installed separately per base version (builds/BUILD.md), so it is not pinned here.
+dependencies = [
+  "numpy",
+  "cart @ git+https://github.com/furqan-nr/cart@198c867#subdirectory=cart",
+  "obsaware @ git+https://github.com/furqan-nr/cart@198c867#subdirectory=obsaware",
+]
+
+[tool.setuptools.packages.find]
+include = ["reveal*"]

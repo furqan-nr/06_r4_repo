@@ -1,0 +1,7106 @@
+{
+ "seed": 20261031,
+ "bases": [
+  "1.4.6",
+  "2.3.1",
+  "2.6.1"
+ ],
+ "units": [
+  {
+   "unit": "F0.000",
+   "replicate": 0,
+   "row": 0,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "none",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.001",
+   "replicate": 0,
+   "row": 1,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.002",
+   "replicate": 0,
+   "row": 2,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "none",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.003",
+   "replicate": 0,
+   "row": 3,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.004",
+   "replicate": 0,
+   "row": 4,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.005",
+   "replicate": 0,
+   "row": 5,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.006",
+   "replicate": 0,
+   "row": 6,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.007",
+   "replicate": 0,
+   "row": 7,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.008",
+   "replicate": 0,
+   "row": 8,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.009",
+   "replicate": 0,
+   "row": 9,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.011",
+   "replicate": 0,
+   "row": 11,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.012",
+   "replicate": 0,
+   "row": 12,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.013",
+   "replicate": 0,
+   "row": 13,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.014",
+   "replicate": 0,
+   "row": 14,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.016",
+   "replicate": 0,
+   "row": 16,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.017",
+   "replicate": 0,
+   "row": 17,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.018",
+   "replicate": 0,
+   "row": 18,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.019",
+   "replicate": 0,
+   "row": 19,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.020",
+   "replicate": 0,
+   "row": 20,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.021",
+   "replicate": 0,
+   "row": 21,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.022",
+   "replicate": 0,
+   "row": 22,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.024",
+   "replicate": 0,
+   "row": 24,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.025",
+   "replicate": 0,
+   "row": 25,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "pauli_evo",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.026",
+   "replicate": 0,
+   "row": 26,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.028",
+   "replicate": 0,
+   "row": 28,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.029",
+   "replicate": 0,
+   "row": 29,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.030",
+   "replicate": 0,
+   "row": 30,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.031",
+   "replicate": 0,
+   "row": 31,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.032",
+   "replicate": 0,
+   "row": 32,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.033",
+   "replicate": 0,
+   "row": 33,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.034",
+   "replicate": 0,
+   "row": 34,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.035",
+   "replicate": 0,
+   "row": 35,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.036",
+   "replicate": 0,
+   "row": 36,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.037",
+   "replicate": 0,
+   "row": 37,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.038",
+   "replicate": 0,
+   "row": 38,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.039",
+   "replicate": 0,
+   "row": 39,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.040",
+   "replicate": 0,
+   "row": 40,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.041",
+   "replicate": 0,
+   "row": 41,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.042",
+   "replicate": 0,
+   "row": 42,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.043",
+   "replicate": 0,
+   "row": 43,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.044",
+   "replicate": 0,
+   "row": 44,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.045",
+   "replicate": 0,
+   "row": 45,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.046",
+   "replicate": 0,
+   "row": 46,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.047",
+   "replicate": 0,
+   "row": 47,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "unitary1",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.048",
+   "replicate": 0,
+   "row": 48,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.049",
+   "replicate": 0,
+   "row": 49,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.050",
+   "replicate": 0,
+   "row": 50,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.051",
+   "replicate": 0,
+   "row": 51,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "permutation",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.052",
+   "replicate": 0,
+   "row": 52,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.053",
+   "replicate": 0,
+   "row": 53,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.054",
+   "replicate": 0,
+   "row": 54,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.055",
+   "replicate": 0,
+   "row": 55,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.056",
+   "replicate": 0,
+   "row": 56,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.057",
+   "replicate": 0,
+   "row": 57,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F0.058",
+   "replicate": 0,
+   "row": 58,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.059",
+   "replicate": 0,
+   "row": 59,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F0.060",
+   "replicate": 0,
+   "row": 60,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.061",
+   "replicate": 0,
+   "row": 61,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.062",
+   "replicate": 0,
+   "row": 62,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F0.063",
+   "replicate": 0,
+   "row": 63,
+   "attempt": 1,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.001",
+   "replicate": 1,
+   "row": 1,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.002",
+   "replicate": 1,
+   "row": 2,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.003",
+   "replicate": 1,
+   "row": 3,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.005",
+   "replicate": 1,
+   "row": 5,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.006",
+   "replicate": 1,
+   "row": 6,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.007",
+   "replicate": 1,
+   "row": 7,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.008",
+   "replicate": 1,
+   "row": 8,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.009",
+   "replicate": 1,
+   "row": 9,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "permutation",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.010",
+   "replicate": 1,
+   "row": 10,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.011",
+   "replicate": 1,
+   "row": 11,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.013",
+   "replicate": 1,
+   "row": 13,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "none",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.014",
+   "replicate": 1,
+   "row": 14,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.015",
+   "replicate": 1,
+   "row": 15,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.017",
+   "replicate": 1,
+   "row": 17,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.018",
+   "replicate": 1,
+   "row": 18,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.019",
+   "replicate": 1,
+   "row": 19,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.020",
+   "replicate": 1,
+   "row": 20,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.021",
+   "replicate": 1,
+   "row": 21,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.022",
+   "replicate": 1,
+   "row": 22,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.023",
+   "replicate": 1,
+   "row": 23,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.024",
+   "replicate": 1,
+   "row": 24,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.025",
+   "replicate": 1,
+   "row": 25,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.026",
+   "replicate": 1,
+   "row": 26,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.027",
+   "replicate": 1,
+   "row": 27,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.028",
+   "replicate": 1,
+   "row": 28,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.029",
+   "replicate": 1,
+   "row": 29,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.030",
+   "replicate": 1,
+   "row": 30,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "none",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.031",
+   "replicate": 1,
+   "row": 31,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.032",
+   "replicate": 1,
+   "row": 32,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.033",
+   "replicate": 1,
+   "row": 33,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "pauli_evo",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.034",
+   "replicate": 1,
+   "row": 34,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.035",
+   "replicate": 1,
+   "row": 35,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.036",
+   "replicate": 1,
+   "row": 36,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.037",
+   "replicate": 1,
+   "row": 37,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.038",
+   "replicate": 1,
+   "row": 38,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.039",
+   "replicate": 1,
+   "row": 39,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.040",
+   "replicate": 1,
+   "row": 40,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "clifford_obj",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.041",
+   "replicate": 1,
+   "row": 41,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "custom_gate",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.042",
+   "replicate": 1,
+   "row": 42,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.043",
+   "replicate": 1,
+   "row": 43,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.044",
+   "replicate": 1,
+   "row": 44,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.045",
+   "replicate": 1,
+   "row": 45,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.046",
+   "replicate": 1,
+   "row": 46,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.048",
+   "replicate": 1,
+   "row": 48,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.049",
+   "replicate": 1,
+   "row": 49,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.051",
+   "replicate": 1,
+   "row": 51,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.053",
+   "replicate": 1,
+   "row": 53,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.054",
+   "replicate": 1,
+   "row": 54,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.055",
+   "replicate": 1,
+   "row": 55,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F1.056",
+   "replicate": 1,
+   "row": 56,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.057",
+   "replicate": 1,
+   "row": 57,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.058",
+   "replicate": 1,
+   "row": 58,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.059",
+   "replicate": 1,
+   "row": 59,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.060",
+   "replicate": 1,
+   "row": 60,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.061",
+   "replicate": 1,
+   "row": 61,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.062",
+   "replicate": 1,
+   "row": 62,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.063",
+   "replicate": 1,
+   "row": 63,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.064",
+   "replicate": 1,
+   "row": 64,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.065",
+   "replicate": 1,
+   "row": 65,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.000",
+   "replicate": 2,
+   "row": 0,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.001",
+   "replicate": 2,
+   "row": 1,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.002",
+   "replicate": 2,
+   "row": 2,
+   "attempt": 2,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.003",
+   "replicate": 2,
+   "row": 3,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.004",
+   "replicate": 2,
+   "row": 4,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.005",
+   "replicate": 2,
+   "row": 5,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.006",
+   "replicate": 2,
+   "row": 6,
+   "attempt": 3,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.007",
+   "replicate": 2,
+   "row": 7,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.010",
+   "replicate": 2,
+   "row": 10,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "custom_gate",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.011",
+   "replicate": 2,
+   "row": 11,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.012",
+   "replicate": 2,
+   "row": 12,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.013",
+   "replicate": 2,
+   "row": 13,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.014",
+   "replicate": 2,
+   "row": 14,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.015",
+   "replicate": 2,
+   "row": 15,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.016",
+   "replicate": 2,
+   "row": 16,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary2",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.017",
+   "replicate": 2,
+   "row": 17,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.018",
+   "replicate": 2,
+   "row": 18,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.019",
+   "replicate": 2,
+   "row": 19,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.020",
+   "replicate": 2,
+   "row": 20,
+   "attempt": 3,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.021",
+   "replicate": 2,
+   "row": 21,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.022",
+   "replicate": 2,
+   "row": 22,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "custom_gate",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.023",
+   "replicate": 2,
+   "row": 23,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.024",
+   "replicate": 2,
+   "row": 24,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.025",
+   "replicate": 2,
+   "row": 25,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.026",
+   "replicate": 2,
+   "row": 26,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.027",
+   "replicate": 2,
+   "row": 27,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.028",
+   "replicate": 2,
+   "row": 28,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.029",
+   "replicate": 2,
+   "row": 29,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.031",
+   "replicate": 2,
+   "row": 31,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.033",
+   "replicate": 2,
+   "row": 33,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.034",
+   "replicate": 2,
+   "row": 34,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.035",
+   "replicate": 2,
+   "row": 35,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.036",
+   "replicate": 2,
+   "row": 36,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.037",
+   "replicate": 2,
+   "row": 37,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.038",
+   "replicate": 2,
+   "row": 38,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.039",
+   "replicate": 2,
+   "row": 39,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "none",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.040",
+   "replicate": 2,
+   "row": 40,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.041",
+   "replicate": 2,
+   "row": 41,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.042",
+   "replicate": 2,
+   "row": 42,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.043",
+   "replicate": 2,
+   "row": 43,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.044",
+   "replicate": 2,
+   "row": 44,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "permutation",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.045",
+   "replicate": 2,
+   "row": 45,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.046",
+   "replicate": 2,
+   "row": 46,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.047",
+   "replicate": 2,
+   "row": 47,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.048",
+   "replicate": 2,
+   "row": 48,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.050",
+   "replicate": 2,
+   "row": 50,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.051",
+   "replicate": 2,
+   "row": 51,
+   "attempt": 1,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.052",
+   "replicate": 2,
+   "row": 52,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.053",
+   "replicate": 2,
+   "row": 53,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.054",
+   "replicate": 2,
+   "row": 54,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.055",
+   "replicate": 2,
+   "row": 55,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.056",
+   "replicate": 2,
+   "row": 56,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.057",
+   "replicate": 2,
+   "row": 57,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.058",
+   "replicate": 2,
+   "row": 58,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.060",
+   "replicate": 2,
+   "row": 60,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.061",
+   "replicate": 2,
+   "row": 61,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F2.062",
+   "replicate": 2,
+   "row": 62,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.063",
+   "replicate": 2,
+   "row": 63,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.065",
+   "replicate": 2,
+   "row": 65,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F2.066",
+   "replicate": 2,
+   "row": 66,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.000",
+   "replicate": 3,
+   "row": 0,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.001",
+   "replicate": 3,
+   "row": 1,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.002",
+   "replicate": 3,
+   "row": 2,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.003",
+   "replicate": 3,
+   "row": 3,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.005",
+   "replicate": 3,
+   "row": 5,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.006",
+   "replicate": 3,
+   "row": 6,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.007",
+   "replicate": 3,
+   "row": 7,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.009",
+   "replicate": 3,
+   "row": 9,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "none",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.010",
+   "replicate": 3,
+   "row": 10,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.011",
+   "replicate": 3,
+   "row": 11,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.012",
+   "replicate": 3,
+   "row": 12,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.013",
+   "replicate": 3,
+   "row": 13,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.014",
+   "replicate": 3,
+   "row": 14,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.015",
+   "replicate": 3,
+   "row": 15,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.017",
+   "replicate": 3,
+   "row": 17,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.018",
+   "replicate": 3,
+   "row": 18,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.019",
+   "replicate": 3,
+   "row": 19,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.020",
+   "replicate": 3,
+   "row": 20,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.021",
+   "replicate": 3,
+   "row": 21,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.023",
+   "replicate": 3,
+   "row": 23,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.025",
+   "replicate": 3,
+   "row": 25,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.026",
+   "replicate": 3,
+   "row": 26,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "unitary1",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.027",
+   "replicate": 3,
+   "row": 27,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.028",
+   "replicate": 3,
+   "row": 28,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.029",
+   "replicate": 3,
+   "row": 29,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.030",
+   "replicate": 3,
+   "row": 30,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.031",
+   "replicate": 3,
+   "row": 31,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.032",
+   "replicate": 3,
+   "row": 32,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.033",
+   "replicate": 3,
+   "row": 33,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.034",
+   "replicate": 3,
+   "row": 34,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.035",
+   "replicate": 3,
+   "row": 35,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.037",
+   "replicate": 3,
+   "row": 37,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.038",
+   "replicate": 3,
+   "row": 38,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.039",
+   "replicate": 3,
+   "row": 39,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.040",
+   "replicate": 3,
+   "row": 40,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.041",
+   "replicate": 3,
+   "row": 41,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "permutation",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.042",
+   "replicate": 3,
+   "row": 42,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.044",
+   "replicate": 3,
+   "row": 44,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.045",
+   "replicate": 3,
+   "row": 45,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.046",
+   "replicate": 3,
+   "row": 46,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.047",
+   "replicate": 3,
+   "row": 47,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.048",
+   "replicate": 3,
+   "row": 48,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.049",
+   "replicate": 3,
+   "row": 49,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.050",
+   "replicate": 3,
+   "row": 50,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.051",
+   "replicate": 3,
+   "row": 51,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.052",
+   "replicate": 3,
+   "row": 52,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.053",
+   "replicate": 3,
+   "row": 53,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.054",
+   "replicate": 3,
+   "row": 54,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F3.055",
+   "replicate": 3,
+   "row": 55,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.057",
+   "replicate": 3,
+   "row": 57,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.059",
+   "replicate": 3,
+   "row": 59,
+   "attempt": 2,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.060",
+   "replicate": 3,
+   "row": 60,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.061",
+   "replicate": 3,
+   "row": 61,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.062",
+   "replicate": 3,
+   "row": 62,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.063",
+   "replicate": 3,
+   "row": 63,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.064",
+   "replicate": 3,
+   "row": 64,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.065",
+   "replicate": 3,
+   "row": 65,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.000",
+   "replicate": 4,
+   "row": 0,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.001",
+   "replicate": 4,
+   "row": 1,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.002",
+   "replicate": 4,
+   "row": 2,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "none",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.003",
+   "replicate": 4,
+   "row": 3,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.004",
+   "replicate": 4,
+   "row": 4,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.005",
+   "replicate": 4,
+   "row": 5,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.007",
+   "replicate": 4,
+   "row": 7,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.008",
+   "replicate": 4,
+   "row": 8,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.009",
+   "replicate": 4,
+   "row": 9,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.010",
+   "replicate": 4,
+   "row": 10,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.011",
+   "replicate": 4,
+   "row": 11,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.012",
+   "replicate": 4,
+   "row": 12,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.013",
+   "replicate": 4,
+   "row": 13,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.014",
+   "replicate": 4,
+   "row": 14,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.015",
+   "replicate": 4,
+   "row": 15,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.016",
+   "replicate": 4,
+   "row": 16,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.017",
+   "replicate": 4,
+   "row": 17,
+   "attempt": 4,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.018",
+   "replicate": 4,
+   "row": 18,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.019",
+   "replicate": 4,
+   "row": 19,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.021",
+   "replicate": 4,
+   "row": 21,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.022",
+   "replicate": 4,
+   "row": 22,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.023",
+   "replicate": 4,
+   "row": 23,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.024",
+   "replicate": 4,
+   "row": 24,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.025",
+   "replicate": 4,
+   "row": 25,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.026",
+   "replicate": 4,
+   "row": 26,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.027",
+   "replicate": 4,
+   "row": 27,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.028",
+   "replicate": 4,
+   "row": 28,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.029",
+   "replicate": 4,
+   "row": 29,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.030",
+   "replicate": 4,
+   "row": 30,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.031",
+   "replicate": 4,
+   "row": 31,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.032",
+   "replicate": 4,
+   "row": 32,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.033",
+   "replicate": 4,
+   "row": 33,
+   "attempt": 2,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.034",
+   "replicate": 4,
+   "row": 34,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.035",
+   "replicate": 4,
+   "row": 35,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.036",
+   "replicate": 4,
+   "row": 36,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary1",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.037",
+   "replicate": 4,
+   "row": 37,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.038",
+   "replicate": 4,
+   "row": 38,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "permutation",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.039",
+   "replicate": 4,
+   "row": 39,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.040",
+   "replicate": 4,
+   "row": 40,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.041",
+   "replicate": 4,
+   "row": 41,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.042",
+   "replicate": 4,
+   "row": 42,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.044",
+   "replicate": 4,
+   "row": 44,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.045",
+   "replicate": 4,
+   "row": 45,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.046",
+   "replicate": 4,
+   "row": 46,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.048",
+   "replicate": 4,
+   "row": 48,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.049",
+   "replicate": 4,
+   "row": 49,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.050",
+   "replicate": 4,
+   "row": 50,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.051",
+   "replicate": 4,
+   "row": 51,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.052",
+   "replicate": 4,
+   "row": 52,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.053",
+   "replicate": 4,
+   "row": 53,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.054",
+   "replicate": 4,
+   "row": 54,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.055",
+   "replicate": 4,
+   "row": 55,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.057",
+   "replicate": 4,
+   "row": 57,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.058",
+   "replicate": 4,
+   "row": 58,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.059",
+   "replicate": 4,
+   "row": 59,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "custom_gate",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.060",
+   "replicate": 4,
+   "row": 60,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.061",
+   "replicate": 4,
+   "row": 61,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.062",
+   "replicate": 4,
+   "row": 62,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.063",
+   "replicate": 4,
+   "row": 63,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.064",
+   "replicate": 4,
+   "row": 64,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.065",
+   "replicate": 4,
+   "row": 65,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F4.067",
+   "replicate": 4,
+   "row": 67,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F4.069",
+   "replicate": 4,
+   "row": 69,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.000",
+   "replicate": 5,
+   "row": 0,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.001",
+   "replicate": 5,
+   "row": 1,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.002",
+   "replicate": 5,
+   "row": 2,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.004",
+   "replicate": 5,
+   "row": 4,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.005",
+   "replicate": 5,
+   "row": 5,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.006",
+   "replicate": 5,
+   "row": 6,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.008",
+   "replicate": 5,
+   "row": 8,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.010",
+   "replicate": 5,
+   "row": 10,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.011",
+   "replicate": 5,
+   "row": 11,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.012",
+   "replicate": 5,
+   "row": 12,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.013",
+   "replicate": 5,
+   "row": 13,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "permutation",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.014",
+   "replicate": 5,
+   "row": 14,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "none",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.015",
+   "replicate": 5,
+   "row": 15,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.016",
+   "replicate": 5,
+   "row": 16,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.017",
+   "replicate": 5,
+   "row": 17,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.018",
+   "replicate": 5,
+   "row": 18,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.020",
+   "replicate": 5,
+   "row": 20,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.022",
+   "replicate": 5,
+   "row": 22,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.023",
+   "replicate": 5,
+   "row": 23,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.024",
+   "replicate": 5,
+   "row": 24,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.025",
+   "replicate": 5,
+   "row": 25,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "permutation",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "1",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.026",
+   "replicate": 5,
+   "row": 26,
+   "attempt": 1,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.027",
+   "replicate": 5,
+   "row": 27,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.028",
+   "replicate": 5,
+   "row": 28,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "none",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.029",
+   "replicate": 5,
+   "row": 29,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "cz_rz_sx_x",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.030",
+   "replicate": 5,
+   "row": 30,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "unitary1",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.031",
+   "replicate": 5,
+   "row": 31,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "cx_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.032",
+   "replicate": 5,
+   "row": 32,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.033",
+   "replicate": 5,
+   "row": 33,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "unitary3",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.034",
+   "replicate": 5,
+   "row": 34,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.035",
+   "replicate": 5,
+   "row": 35,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.036",
+   "replicate": 5,
+   "row": 36,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.037",
+   "replicate": 5,
+   "row": 37,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.038",
+   "replicate": 5,
+   "row": 38,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "cz_rz_sx_x",
+    "block": "custom_gate",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.039",
+   "replicate": 5,
+   "row": 39,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "pauli_evo",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.040",
+   "replicate": 5,
+   "row": 40,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.042",
+   "replicate": 5,
+   "row": 42,
+   "attempt": 0,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.043",
+   "replicate": 5,
+   "row": 43,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.044",
+   "replicate": 5,
+   "row": 44,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "bound",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.045",
+   "replicate": 5,
+   "row": 45,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.046",
+   "replicate": 5,
+   "row": 46,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cx_p_u",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.047",
+   "replicate": 5,
+   "row": 47,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_p_u",
+    "block": "custom_gate",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "none",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.048",
+   "replicate": 5,
+   "row": 48,
+   "attempt": 1,
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.049",
+   "replicate": 5,
+   "row": 49,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "unitary3",
+    "coupling": "all_to_all",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.050",
+   "replicate": 5,
+   "row": 50,
+   "attempt": 3,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.053",
+   "replicate": 5,
+   "row": 53,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.054",
+   "replicate": 5,
+   "row": 54,
+   "attempt": 0,
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "unitary1",
+    "coupling": "all_to_all",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.055",
+   "replicate": 5,
+   "row": 55,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cx_p_u",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.056",
+   "replicate": 5,
+   "row": 56,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "expr_same_symbol",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.057",
+   "replicate": 5,
+   "row": 57,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "cx_p_u",
+    "block": "unitary3",
+    "coupling": "ring",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.058",
+   "replicate": 5,
+   "row": 58,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "approx_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary1",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.059",
+   "replicate": 5,
+   "row": 59,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.060",
+   "replicate": 5,
+   "row": 60,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "permutation",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "1",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.061",
+   "replicate": 5,
+   "row": 61,
+   "attempt": 0,
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "unitary3",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.062",
+   "replicate": 5,
+   "row": 62,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "unitary2",
+    "coupling": "all_to_all",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.063",
+   "replicate": 5,
+   "row": 63,
+   "attempt": 0,
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "clifford_obj",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.064",
+   "replicate": 5,
+   "row": 64,
+   "attempt": 2,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.065",
+   "replicate": 5,
+   "row": 65,
+   "attempt": 0,
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "pauli_evo",
+    "coupling": "heavy_hex",
+    "gate_group": "clifford1",
+    "layout_routing": "default",
+    "level": "1",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "unit": "F0.010",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F0.015",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F0.023",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F0.027",
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F1.000",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "none",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.004",
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F1.012",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.016",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "custom_gate",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "none",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F1.047",
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "permutation",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F1.050",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F1.052",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "all_to_all",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.008",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.009",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "annotated",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "expr_same_symbol",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F2.030",
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_par",
+    "basis": "ecr_rz_sx_x",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.032",
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "none",
+    "coupling": "line",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "vector",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F2.049",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "clifford1",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F2.059",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F2.064",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "permutation",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "vector",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.004",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.008",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "vector",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F3.016",
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "expr_same_symbol",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.022",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "inter2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.024",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "pauli_evo",
+    "coupling": "line",
+    "gate_group": "clifford1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "none",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F3.036",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_par",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "sabre",
+    "level": "3",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.043",
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "ecr_rz_sx_x",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F3.056",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "none",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F3.058",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F3.066",
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "ring",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.006",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "default",
+    "level": "2",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.020",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "approx_par",
+    "basis": "cz_rz_sx_x",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F4.043",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "pauli_evo",
+    "coupling": "one_way_line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "bound",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F4.047",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F4.056",
+   "values": {
+    "angles": "negative",
+    "approx_threads": "approx_1",
+    "basis": "with_rzz",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.066",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "all_to_all",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "none",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F4.068",
+   "values": {
+    "angles": "near_zero",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "line",
+    "gate_group": "rot1",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.003",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "clifford_obj",
+    "coupling": "one_way_line",
+    "gate_group": "inter2",
+    "layout_routing": "sabre",
+    "level": "0",
+    "params": "bound",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.007",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_par",
+    "basis": "cx_rz_sx_sxdg_x",
+    "block": "annotated",
+    "coupling": "line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "vector",
+    "structure": "plain"
+   }
+  },
+  {
+   "unit": "F5.009",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_par",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "ring",
+    "gate_group": "rot1",
+    "layout_routing": "default",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.019",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "exact_1",
+    "basis": "with_rzz",
+    "block": "unitary3",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "sabre",
+    "level": "2",
+    "params": "bound",
+    "structure": "global_phase"
+   }
+  },
+  {
+   "unit": "F5.021",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary1",
+    "coupling": "line",
+    "gate_group": "multi3",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "vector",
+    "structure": "control_flow"
+   }
+  },
+  {
+   "unit": "F5.041",
+   "values": {
+    "angles": "sum_2pi",
+    "approx_threads": "exact_1",
+    "basis": "cx_rz_sx_x",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "2",
+    "params": "expr_same_symbol",
+    "structure": "inverse_pairs"
+   }
+  },
+  {
+   "unit": "F5.051",
+   "values": {
+    "angles": "negative",
+    "approx_threads": "exact_par",
+    "basis": "with_rzz",
+    "block": "unitary2",
+    "coupling": "heavy_hex",
+    "gate_group": "inter2",
+    "layout_routing": "default",
+    "level": "3",
+    "params": "symbolic",
+    "structure": "barrier_measure"
+   }
+  },
+  {
+   "unit": "F5.052",
+   "values": {
+    "angles": "generic",
+    "approx_threads": "approx_1",
+    "basis": "cz_rz_sx_x",
+    "block": "annotated",
+    "coupling": "one_way_line",
+    "gate_group": "multi3",
+    "layout_routing": "trivial_basic",
+    "level": "0",
+    "params": "symbolic",
+    "structure": "idle_qubits"
+   }
+  },
+  {
+   "unit": "F5.066",
+   "values": {
+    "angles": "pi4_multiples",
+    "approx_threads": "exact_1",
+    "basis": "clifford_t",
+    "block": "annotated",
+    "coupling": "heavy_hex",
+    "gate_group": "ctrl2",
+    "layout_routing": "trivial_basic",
+    "level": "3",
+    "params": "bound",
+    "structure": "plain"
+   }
+  }
+ ],
+ "pair_coverage_per_replicate": {
+  "0": 0.9740680713128039,
+  "1": 0.9611021069692058,
+  "2": 0.9651539708265803,
+  "3": 0.9384116693679092,
+  "4": 0.9781199351701783,
+  "5": 0.9497568881685575
+ }
+}

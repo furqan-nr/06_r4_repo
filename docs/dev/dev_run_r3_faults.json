@@ -1,0 +1,158 @@
+{
+ "note": "development observations on R3's 15 faults (development set); not evidence; base 2.6.1 (R3 wheelhouse); #16884 and #16963 use isolated rebuilds (builds/make_faults.py method)",
+ "events": {
+  "13945": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "14943": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "15623": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16153": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16283": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16402": {
+   "items_detecting": 4,
+   "end_to_end": 0,
+   "pass_level": 4,
+   "detail": {
+    "P:F2.055:CommutativeCancellation:raw": [
+     "probe"
+    ],
+    "P:F2.055:CommutativeCancellation:snap": [
+     "probe"
+    ],
+    "P:F3.030:CommutativeCancellation:raw": [
+     "probe"
+    ],
+    "P:F3.030:CommutativeCancellation:snap": [
+     "probe"
+    ]
+   },
+   "lane": []
+  },
+  "16476": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16599": {
+   "items_detecting": 5,
+   "end_to_end": 0,
+   "pass_level": 5,
+   "detail": {
+    "P:F0.014:CommutativeCancellation:raw": [
+     "output",
+     "probe"
+    ],
+    "P:F0.043:CommutativeCancellation:raw": [
+     "output",
+     "probe"
+    ],
+    "P:F1.022:CommutativeCancellation:raw": [
+     "output",
+     "probe"
+    ],
+    "P:F4.030:CommutativeCancellation:raw": [
+     "output",
+     "probe"
+    ],
+    "P:F5.014:CommutativeCancellation:raw": [
+     "output",
+     "probe"
+    ]
+   },
+   "lane": []
+  },
+  "16637": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16656": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16752": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16884": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16963": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "16988": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  },
+  "17163": {
+   "items_detecting": 2,
+   "end_to_end": 2,
+   "pass_level": 0,
+   "detail": {
+    "U:F1.054": [
+     "probe"
+    ],
+    "U:F2.029": [
+     "probe"
+    ]
+   },
+   "lane": []
+  },
+  "null": {
+   "items_detecting": 0,
+   "end_to_end": 0,
+   "pass_level": 0,
+   "detail": {},
+   "lane": []
+  }
+ }
+}

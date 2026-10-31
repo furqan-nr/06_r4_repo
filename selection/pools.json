@@ -1,0 +1,438 @@
+{
+ "rule": "selection/mine_pools.py",
+ "r3_head": "5f9bf19d4",
+ "pools": {
+  "B": [
+   {
+    "id": "17297",
+    "commit": "9b3633993",
+    "date": "2026-10-22",
+    "rust": false
+   },
+   {
+    "id": "17269",
+    "commit": "1d9cc60f1",
+    "date": "2026-10-21",
+    "rust": false
+   },
+   {
+    "id": "17046",
+    "commit": "2d904815b",
+    "date": "2026-10-13",
+    "rust": true
+   },
+   {
+    "id": "17165",
+    "commit": "73ef434bb",
+    "date": "2026-10-12",
+    "rust": true
+   },
+   {
+    "id": "17117",
+    "commit": "32c1f79e6",
+    "date": "2026-10-02",
+    "rust": false
+   },
+   {
+    "id": "16950",
+    "commit": "6d7432d03",
+    "date": "2026-09-08",
+    "rust": true
+   },
+   {
+    "id": "16896",
+    "commit": "66f6f9ca4",
+    "date": "2026-09-08",
+    "rust": true
+   },
+   {
+    "id": "16538",
+    "commit": "3f5f34377",
+    "date": "2026-09-07",
+    "rust": false
+   },
+   {
+    "id": "16920",
+    "commit": "65bd52bbb",
+    "date": "2026-09-07",
+    "rust": false
+   },
+   {
+    "id": "16834",
+    "commit": "5f0a8617e",
+    "date": "2026-09-07",
+    "rust": true
+   },
+   {
+    "id": "10151",
+    "commit": "a31be5924",
+    "date": "2026-09-06",
+    "rust": false
+   },
+   {
+    "id": "16883",
+    "commit": "095d4bd26",
+    "date": "2026-09-03",
+    "rust": true
+   },
+   {
+    "id": "16880",
+    "commit": "9f1a177f2",
+    "date": "2026-08-31",
+    "rust": true
+   },
+   {
+    "id": "16828",
+    "commit": "da7fd7f38",
+    "date": "2026-08-25",
+    "rust": true
+   },
+   {
+    "id": "16687",
+    "commit": "fbb33ad55",
+    "date": "2026-08-11",
+    "rust": true
+   },
+   {
+    "id": "16729",
+    "commit": "9499a6a21",
+    "date": "2026-08-11",
+    "rust": true
+   },
+   {
+    "id": "16459",
+    "commit": "5647a6109",
+    "date": "2026-07-07",
+    "rust": false
+   },
+   {
+    "id": "16530",
+    "commit": "705667a13",
+    "date": "2026-07-07",
+    "rust": false
+   },
+   {
+    "id": "16443",
+    "commit": "2cf97b58e",
+    "date": "2026-07-06",
+    "rust": true
+   },
+   {
+    "id": "16432",
+    "commit": "dc24fc3ac",
+    "date": "2026-07-02",
+    "rust": true
+   },
+   {
+    "id": "16492",
+    "commit": "df3079520",
+    "date": "2026-07-02",
+    "rust": false
+   },
+   {
+    "id": "16323",
+    "commit": "21df110bc",
+    "date": "2026-06-18",
+    "rust": false
+   },
+   {
+    "id": "16394",
+    "commit": "d89a84bd7",
+    "date": "2026-06-09",
+    "rust": false
+   },
+   {
+    "id": "16337",
+    "commit": "592c1de00",
+    "date": "2026-06-08",
+    "rust": true
+   },
+   {
+    "id": "16249",
+    "commit": "59bc96eea",
+    "date": "2026-05-29",
+    "rust": true
+   },
+   {
+    "id": "16151",
+    "commit": "c9c5673e0",
+    "date": "2026-05-27",
+    "rust": true
+   },
+   {
+    "id": "15944",
+    "commit": "4dbf157eb",
+    "date": "2026-05-07",
+    "rust": false
+   },
+   {
+    "id": "15943",
+    "commit": "f8e543ff6",
+    "date": "2026-04-10",
+    "rust": false
+   },
+   {
+    "id": "15674",
+    "commit": "d358f3452",
+    "date": "2026-02-11",
+    "rust": false
+   },
+   {
+    "id": "15646",
+    "commit": "4337b296f",
+    "date": "2026-02-11",
+    "rust": false
+   },
+   {
+    "id": "15581",
+    "commit": "aedc6f0aa",
+    "date": "2026-01-21",
+    "rust": true
+   },
+   {
+    "id": "15181",
+    "commit": "738193f2b",
+    "date": "2025-10-19",
+    "rust": false
+   },
+   {
+    "id": "15020",
+    "commit": "650270f39",
+    "date": "2025-09-17",
+    "rust": false
+   },
+   {
+    "id": "14670",
+    "commit": "835325167",
+    "date": "2025-06-26",
+    "rust": false
+   },
+   {
+    "id": "14586",
+    "commit": "ba74b5c47",
+    "date": "2025-06-12",
+    "rust": false
+   },
+   {
+    "id": "14436",
+    "commit": "c61d79732",
+    "date": "2025-05-25",
+    "rust": false
+   }
+  ],
+  "C24": [
+   {
+    "id": "13517",
+    "commit": "149d5a671",
+    "date": "2025-03-06",
+    "rust": false
+   },
+   {
+    "id": "13833",
+    "commit": "b93317983",
+    "date": "2025-02-13",
+    "rust": false
+   },
+   {
+    "id": "13633",
+    "commit": "087e39390",
+    "date": "2025-01-14",
+    "rust": false
+   },
+   {
+    "id": "13643",
+    "commit": "2476188dc",
+    "date": "2025-01-10",
+    "rust": false
+   },
+   {
+    "id": "13523",
+    "commit": "82bbcaa82",
+    "date": "2024-12-17",
+    "rust": false
+   },
+   {
+    "id": "13530",
+    "commit": "b9ea266a2",
+    "date": "2024-12-12",
+    "rust": false
+   },
+   {
+    "id": "13545",
+    "commit": "4495c672f",
+    "date": "2024-12-10",
+    "rust": false
+   },
+   {
+    "id": "13538",
+    "commit": "6f0a176e3",
+    "date": "2024-12-09",
+    "rust": true
+   },
+   {
+    "id": "13454",
+    "commit": "6025b7c65",
+    "date": "2024-11-26",
+    "rust": false
+   },
+   {
+    "id": "13417",
+    "commit": "b9d5c9c6a",
+    "date": "2024-11-14",
+    "rust": false
+   },
+   {
+    "id": "13181",
+    "commit": "2245a4f44",
+    "date": "2024-09-19",
+    "rust": false
+   },
+   {
+    "id": "13121",
+    "commit": "8929e12ba",
+    "date": "2024-09-10",
+    "rust": true
+   },
+   {
+    "id": "13083",
+    "commit": "576efcf14",
+    "date": "2024-09-04",
+    "rust": false
+   },
+   {
+    "id": "13067",
+    "commit": "8f3308475",
+    "date": "2024-09-03",
+    "rust": true
+   },
+   {
+    "id": "12986",
+    "commit": "83ecf3965",
+    "date": "2024-08-26",
+    "rust": false
+   },
+   {
+    "id": "12976",
+    "commit": "aa09a027b",
+    "date": "2024-08-20",
+    "rust": false
+   },
+   {
+    "id": "12952",
+    "commit": "9252713e5",
+    "date": "2024-08-14",
+    "rust": false
+   },
+   {
+    "id": "12579",
+    "commit": "6974b4500",
+    "date": "2024-06-26",
+    "rust": false
+   },
+   {
+    "id": "11585",
+    "commit": "2b847b8e9",
+    "date": "2024-06-10",
+    "rust": false
+   },
+   {
+    "id": "12469",
+    "commit": "0f0a6347d",
+    "date": "2024-05-28",
+    "rust": true
+   },
+   {
+    "id": "12137",
+    "commit": "b80885d1d",
+    "date": "2024-05-09",
+    "rust": false
+   },
+   {
+    "id": "12054",
+    "commit": "5e7a6d052",
+    "date": "2024-03-24",
+    "rust": false
+   },
+   {
+    "id": "11682",
+    "commit": "8b6e4fe0f",
+    "date": "2024-03-07",
+    "rust": false
+   },
+   {
+    "id": "11907",
+    "commit": "d47a227d9",
+    "date": "2024-02-28",
+    "rust": false
+   }
+  ],
+  "A231": [
+   {
+    "id": "15781",
+    "commit": "16a21a740",
+    "date": "2026-03-09",
+    "rust": true
+   },
+   {
+    "id": "15685",
+    "commit": "8f4e195fc",
+    "date": "2026-02-15",
+    "rust": true
+   },
+   {
+    "id": "15642",
+    "commit": "245bc460a",
+    "date": "2026-02-11",
+    "rust": true
+   },
+   {
+    "id": "15286",
+    "commit": "52af4781c",
+    "date": "2025-11-05",
+    "rust": false
+   },
+   {
+    "id": "15258",
+    "commit": "4019fd9d9",
+    "date": "2025-10-28",
+    "rust": false
+   },
+   {
+    "id": "14934",
+    "commit": "951147794",
+    "date": "2025-08-25",
+    "rust": false
+   },
+   {
+    "id": "14767",
+    "commit": "d6e990161",
+    "date": "2025-07-21",
+    "rust": false
+   },
+   {
+    "id": "14655",
+    "commit": "4b54dc97c",
+    "date": "2025-07-09",
+    "rust": false
+   },
+   {
+    "id": "14636",
+    "commit": "4add7fd36",
+    "date": "2025-06-18",
+    "rust": false
+   },
+   {
+    "id": "14539",
+    "commit": "29820048d",
+    "date": "2025-06-05",
+    "rust": false
+   },
+   {
+    "id": "14417",
+    "commit": "4e9231df9",
+    "date": "2025-05-21",
+    "rust": false
+   }
+  ]
+ }
+}
