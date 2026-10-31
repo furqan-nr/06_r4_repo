@@ -2,7 +2,7 @@
 
 - **Approved by the authors:** 2026-10-31.
 - **Frozen manifest:** `PREREGISTRATION_R4.sha256`, SHA-256 `7656ffda371b753122d8e6e2a2e39495a04257ccb7c720a167904c12b0e0b96a`. Check with `python tools/freeze.py --check`.
-- **Pushed:** _fill in the push time (UTC) and the commit hash after pushing._
+- **Pushed:** 2026-10-31 07:51:18 UTC (GitHub `pushed_at`) to `https://github.com/furqan-nr/06_r4_repo`, branch `main`, commit `64eeca9f7bde81d67dc0c8b2a9d7aebad407efe7`.
 
 ## Kaggle datasets (SHA-256 of the uploaded zips)
 
