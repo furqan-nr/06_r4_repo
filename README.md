@@ -2,6 +2,8 @@
 
 Status: **registration R4** (`PREREGISTRATION_R4.md`, frozen files listed in `PREREGISTRATION_R4.sha256`). No R4 session had run when it was pushed. The held-out faults were built, but none had compiled a corpus unit or been seen by any check.
 
+**Results** (2026-11-02): `RESULTS_R4.md`. The primary claim A4 is not supported (4 to 0 on pool F, p = 0.0625). Claims B4, E4 and F4 are supported. Deviations: `DEVIATIONS.md`. Post hoc analyses, which decide nothing: `RESULTS_R4.md` Part 2, `results/posthoc/`, `tools/analysis/`.
+
 ## Purpose
 
 Registration R3 (in [furqan-nr/cart](https://github.com/furqan-nr/cart), commit `198c867`) re-injected 15 real Qiskit bugs and revealed none of them, although every bug's changed code ran on the corpus. This repository tests the remedy that the R3 diagnosis suggests:
@@ -18,6 +20,7 @@ The checks (output, quality, statevector probe, contract, determinism lane) and 
 
 | Folder | What |
 |---|---|
+| `results/` | registered analysis output, per-fault rows, session map, and `posthoc/` |
 | `reveal/` | the package: feature model, corpus generator, pass-level units (in development) |
 | `selection/` | held-out fault pools: `mine_pools.py` and its output `pools.json` (ids, commits and dates only) |
 | `builds/` | how the clean Qiskit builds are made, and their hashes |

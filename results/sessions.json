@@ -1,0 +1,32 @@
+{
+ "2.6.1/B1": {
+  "cal": "NR4a",
+  "label": "R4-B1",
+  "pool": "B"
+ },
+ "2.6.1/B2": {
+  "cal": "NR4a",
+  "label": "R4-B2",
+  "pool": "B"
+ },
+ "1.4.6/C1": {
+  "cal": "NR4b",
+  "label": "R4-C1 (records of #12469, #13643, #12952 moved to superseded/)",
+  "pool": "F"
+ },
+ "1.4.6/C1b": {
+  "cal": "NR4b",
+  "label": "R4-C1b",
+  "pool": "F"
+ },
+ "1.4.6/C2": {
+  "cal": "NR4b",
+  "label": "R4-C2",
+  "pool": "F"
+ },
+ "2.3.1/A": {
+  "cal": "NR4c",
+  "label": "R4-A",
+  "pool": "F"
+ }
+}

@@ -22,3 +22,26 @@ Each deviation is listed with its reason, when it was decided, and what was know
 **Effect.**
 - Detection does not depend on machine speed.
 - The rerun affects the measured costs (claims E4 and F4) of three faults, and the hang limit, which is a multiple of the clean time.
+
+## D2. The "reported" block of the registered analysis shows only the 3x counts
+
+**What happened.** In `reveal/analyze.py`, the dictionary `res["reported"]` is keyed by suite name only, inside a loop over the two budgets. The 3x count therefore overwrites the 1x count, and `registered_analysis_r4.json` shows 3x counts under plain suite names.
+
+**Effect.**
+- No claim is affected. Claims A4 to F4 read the per-fault rows directly.
+- The per-fault rows (`results/per_fault.json`) hold both budgets. `RESULTS_R4.md` reports the 1x and 3x counts from them.
+
+**What was done.** The frozen file is not changed. Found on 2026-11-02, after the analysis had run.
+
+## D3. The registered analysis was run through a caching wrapper
+
+**What happened.**
+- The first run of `reveal/analyze.py` was stopped by the analysis machine's 30-minute limit for background jobs, before it wrote any output.
+- The frozen script runs every selection strategy once per session record. Records of the same base share one calibration session, so it repeats the same selections (B1 and B2 use NR4a, and C1, C1b and C2 use NR4b).
+
+**What was done.**
+- The second run used `tools/analysis/run_analysis_cached.py`. It imports the frozen module unchanged, keeps the result of each strategy call, and returns it when the same call recurs.
+- The strategies are seeded and pure, so the output is the same as an uncached run.
+- The run took 4,233 s.
+
+**Effect.** None on any result.

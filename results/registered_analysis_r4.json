@@ -1,0 +1,94 @@
+{
+ "A4": {
+  "test": {
+   "a_only": 4,
+   "b_only": 0,
+   "discordant": 4,
+   "p": 0.0625,
+   "decisive": false
+  },
+  "supported": false,
+  "pooled": {
+   "a_only": 5,
+   "b_only": 0,
+   "discordant": 5,
+   "p": 0.03125,
+   "decisive": true
+  }
+ },
+ "B4": {
+  "S5": 5,
+  "S1": 5,
+  "S2": 1,
+  "supported": true
+ },
+ "C4": {
+  "test": {
+   "a_only": 2,
+   "b_only": 0,
+   "discordant": 2,
+   "p": 0.25,
+   "decisive": false
+  },
+  "supported": false
+ },
+ "D4": {
+  "all_checks": 5,
+  "output_quality": 5,
+  "supported": false
+ },
+ "E4": {
+  "detectable": 5,
+  "detected_at_5pct": {
+   "observability": 4,
+   "output_only": 4,
+   "all_checks": 1,
+   "ac_costaware": 3,
+   "cheapest_items": 3
+  },
+  "supported": true
+ },
+ "F4": {
+  "per_budget": {
+   "0.02": {
+    "mean": 0.939986377911833,
+    "max": 1.063563808745598
+   },
+   "0.05": {
+    "mean": 0.9148996780280899,
+    "max": 1.0601049413515484
+   },
+   "0.1": {
+    "mean": 0.9172604777476673,
+    "max": 1.0639943333434987
+   }
+  },
+  "supported": true
+ },
+ "reported": {
+  "F": {
+   "S0": 0,
+   "S1": 4,
+   "S2": 1,
+   "S3": 2,
+   "S4": 4,
+   "S5": 4
+  },
+  "B": {
+   "S0": 0,
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1
+  },
+  "all": {
+   "S0": 0,
+   "S1": 5,
+   "S2": 2,
+   "S3": 3,
+   "S4": 5,
+   "S5": 5
+  }
+ }
+}

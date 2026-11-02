@@ -1,0 +1,7 @@
+{
+ "base": "1.4.6",
+ "unit": "U:S1.2201",
+ "clean_lane_runs": 20,
+ "nondeterministic_runs": 2,
+ "note": "Clean Qiskit 1.4.6 (the R4 wheelhouse), each run = 3 fresh interpreters with hash seeds 0, 1, 2, as the registered lane. Run with tools/analysis/lane_repeat.py."
+}

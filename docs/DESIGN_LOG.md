@@ -221,3 +221,19 @@ All three pools pass the null check, every overlay is non-empty, and all 71 faul
 **Frozen files changed** (before registration, fault-blind): `reveal/worker.py`, `reveal/label.py`, `PREREGISTRATION_R4.md` (check difference 4), `tools/freeze.py` (adds `builds/records`), `builds/BUILD.md` (session builds).
 Design freeze 3: manifest SHA-256 `a9c7596cd7c3c78b7bdd5db07e69bb6d64deb36f8099feb541abfbe40f9d4bb3`.
 Final freeze (approved registration): manifest SHA-256 `7656ffda371b753122d8e6e2a2e39495a04257ccb7c720a167904c12b0e0b96a`.
+
+## 2026-11-02: registered analysis and post hoc audit of R4
+
+**Registered analysis.**
+- **Run:** the frozen `reveal/analyze.py`, from the code in the registered `r4-code.zip` (`freeze --check` passes), through the caching wrapper of D3.
+- **Results:** A4 not supported (4 to 0 on F, p = 0.0625). B4, E4 and F4 supported. C4 and D4 not supported. Details in `RESULTS_R4.md`.
+- **Reporting bug:** the "reported" block of the analysis keeps only the 3x counts (D2).
+
+**Post hoc audit** (`tools/analysis/`, `results/posthoc/`).
+- **P1:** the three faults S1 detected alone come from one unit whose clean 1.4.6 lane is non-deterministic in 2 of 20 reruns.
+- **P2:** 806 changed items were rerun on their clean builds in 20 more interpreters. 12 are flaky on the clean build.
+- **P3:** 64 of the 71 faults changed no output on any item.
+- **P4:** the probe takes 73% to 76% of checking cost and adds no detection.
+- **P5:** at the change level, S5 exposes 7 faults and S0 none.
+
+**Status of these findings:** they inform the design of a next registration and decide nothing in R4.

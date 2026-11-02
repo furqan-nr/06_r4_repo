@@ -1,0 +1,194 @@
+{
+ "2.6.1": {
+  "S0": {
+   "items": 116,
+   "units": 116,
+   "compile": 42.8,
+   "output": 1178.8,
+   "quality": 5.2,
+   "probe": 221.7,
+   "contract": 0.0,
+   "total": 1448.6
+  },
+  "S5": {
+   "items": 6732,
+   "units": 357,
+   "compile": 17.0,
+   "output": 87.0,
+   "quality": 6.0,
+   "probe": 780.5,
+   "contract": 0.0,
+   "pass_contract": 0.0,
+   "total": 890.5
+  },
+  "S1": {
+   "items": 1605,
+   "units": 1605,
+   "compile": 27.7,
+   "output": 18.6,
+   "quality": 2.2,
+   "probe": 852.2,
+   "contract": 0.1,
+   "total": 900.9
+  },
+  "S2": {
+   "items": 1253,
+   "units": 1253,
+   "compile": 20.1,
+   "output": 16.0,
+   "quality": 2.0,
+   "probe": 847.2,
+   "contract": 0.1,
+   "total": 885.5
+  },
+  "S3": {
+   "items": 357,
+   "units": 357,
+   "compile": 7.6,
+   "output": 6.8,
+   "quality": 1.2,
+   "probe": 339.3,
+   "contract": 0.0,
+   "total": 354.9
+  },
+  "S4": {
+   "items": 9258,
+   "units": 473,
+   "compile": 20.5,
+   "output": 79.8,
+   "quality": 4.1,
+   "probe": 679.9,
+   "contract": 0.0,
+   "pass_contract": 0.0,
+   "total": 784.5
+  }
+ },
+ "1.4.6": {
+  "S0": {
+   "items": 116,
+   "units": 116,
+   "compile": 177.9,
+   "output": 1277.1,
+   "quality": 5.0,
+   "probe": 206.0,
+   "contract": 0.0,
+   "total": 1666.0
+  },
+  "S5": {
+   "items": 6732,
+   "units": 357,
+   "compile": 34.5,
+   "output": 86.8,
+   "quality": 5.8,
+   "probe": 1338.3,
+   "contract": 0.0,
+   "pass_contract": 0.0,
+   "total": 1465.5
+  },
+  "S1": {
+   "items": 2500,
+   "units": 2500,
+   "compile": 89.4,
+   "output": 34.8,
+   "quality": 3.5,
+   "probe": 1310.0,
+   "contract": 0.2,
+   "total": 1437.9
+  },
+  "S2": {
+   "items": 2500,
+   "units": 2500,
+   "compile": 88.3,
+   "output": 37.0,
+   "quality": 4.2,
+   "probe": 1699.8,
+   "contract": 0.2,
+   "total": 1829.5
+  },
+  "S3": {
+   "items": 357,
+   "units": 357,
+   "compile": 18.6,
+   "output": 7.5,
+   "quality": 1.3,
+   "probe": 329.4,
+   "contract": 0.0,
+   "total": 356.8
+  },
+  "S4": {
+   "items": 7470,
+   "units": 380,
+   "compile": 29.5,
+   "output": 73.0,
+   "quality": 3.3,
+   "probe": 1315.6,
+   "contract": 0.0,
+   "pass_contract": 0.0,
+   "total": 1421.4
+  }
+ },
+ "2.3.1": {
+  "S0": {
+   "items": 116,
+   "units": 116,
+   "compile": 73.9,
+   "output": 1152.2,
+   "quality": 4.3,
+   "probe": 205.0,
+   "contract": 0.0,
+   "total": 1435.5
+  },
+  "S5": {
+   "items": 6732,
+   "units": 357,
+   "compile": 19.9,
+   "output": 83.7,
+   "quality": 5.6,
+   "probe": 741.5,
+   "contract": 0.0,
+   "pass_contract": 0.0,
+   "total": 850.7
+  },
+  "S1": {
+   "items": 1888,
+   "units": 1888,
+   "compile": 35.3,
+   "output": 21.8,
+   "quality": 2.3,
+   "probe": 958.7,
+   "contract": 0.1,
+   "total": 1018.3
+  },
+  "S2": {
+   "items": 1611,
+   "units": 1611,
+   "compile": 28.3,
+   "output": 20.3,
+   "quality": 2.4,
+   "probe": 1067.6,
+   "contract": 0.1,
+   "total": 1118.7
+  },
+  "S3": {
+   "items": 357,
+   "units": 357,
+   "compile": 10.0,
+   "output": 6.6,
+   "quality": 1.2,
+   "probe": 323.0,
+   "contract": 0.0,
+   "total": 340.9
+  },
+  "S4": {
+   "items": 9816,
+   "units": 500,
+   "compile": 23.7,
+   "output": 83.5,
+   "quality": 3.9,
+   "probe": 662.4,
+   "contract": 0.0,
+   "pass_contract": 0.0,
+   "total": 773.7
+  }
+ }
+}

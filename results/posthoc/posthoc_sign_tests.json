@@ -1,0 +1,98 @@
+{
+ "reg/F": {
+  "S5 vs S0": {
+   "a_only": 4,
+   "b_only": 0,
+   "discordant": 4,
+   "p": 0.0625,
+   "decisive": false
+  },
+  "S5 vs S1": {
+   "a_only": 3,
+   "b_only": 3,
+   "discordant": 6,
+   "p": 0.65625,
+   "decisive": true
+  }
+ },
+ "reg/all": {
+  "S5 vs S0": {
+   "a_only": 5,
+   "b_only": 0,
+   "discordant": 5,
+   "p": 0.03125,
+   "decisive": true
+  },
+  "S5 vs S1": {
+   "a_only": 3,
+   "b_only": 3,
+   "discordant": 6,
+   "p": 0.65625,
+   "decisive": true
+  }
+ },
+ "aud/F": {
+  "S5 vs S0": {
+   "a_only": 4,
+   "b_only": 0,
+   "discordant": 4,
+   "p": 0.0625,
+   "decisive": false
+  },
+  "S5 vs S1": {
+   "a_only": 3,
+   "b_only": 0,
+   "discordant": 3,
+   "p": 0.125,
+   "decisive": false
+  }
+ },
+ "aud/all": {
+  "S5 vs S0": {
+   "a_only": 5,
+   "b_only": 0,
+   "discordant": 5,
+   "p": 0.03125,
+   "decisive": true
+  },
+  "S5 vs S1": {
+   "a_only": 3,
+   "b_only": 0,
+   "discordant": 3,
+   "p": 0.125,
+   "decisive": false
+  }
+ },
+ "chg/F": {
+  "S5 vs S0": {
+   "a_only": 6,
+   "b_only": 0,
+   "discordant": 6,
+   "p": 0.015625,
+   "decisive": true
+  },
+  "S5 vs S1": {
+   "a_only": 4,
+   "b_only": 0,
+   "discordant": 4,
+   "p": 0.0625,
+   "decisive": false
+  }
+ },
+ "chg/all": {
+  "S5 vs S0": {
+   "a_only": 7,
+   "b_only": 0,
+   "discordant": 7,
+   "p": 0.0078125,
+   "decisive": true
+  },
+  "S5 vs S1": {
+   "a_only": 4,
+   "b_only": 0,
+   "discordant": 4,
+   "p": 0.0625,
+   "decisive": false
+  }
+ }
+}
