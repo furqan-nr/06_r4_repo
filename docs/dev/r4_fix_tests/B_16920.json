@@ -1,0 +1,40 @@
+{
+ "id": "16920",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "65bd52bbb",
+ "test_files": [
+  "test/python/transpiler/test_optimize_swap_before_measure.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_cannot_optimize": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_if_else": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_nested_control_flow": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_1swap_1measure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_1swap_2measure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_3swap_3measure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_nswap_nmeasure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_nswap_nmeasure_2": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasureFixedPoint::test_optimize_overlap_swap": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasureFixedPoint::test_optimize_swap_with_anonymous_qubit_and_reg": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasureFixedPoint::test_optimize_undone_swap": "pass"
+ },
+ "fault": {
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_cannot_optimize": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_if_else": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_nested_control_flow": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_1swap_1measure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_1swap_2measure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_3swap_3measure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_nswap_nmeasure": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasure::test_optimize_nswap_nmeasure_2": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasureFixedPoint::test_optimize_overlap_swap": "pass",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasureFixedPoint::test_optimize_swap_with_anonymous_qubit_and_reg": "fail",
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasureFixedPoint::test_optimize_undone_swap": "pass"
+ },
+ "triggers": [
+  "test.python.transpiler.test_optimize_swap_before_measure.TestOptimizeSwapBeforeMeasureFixedPoint::test_optimize_swap_with_anonymous_qubit_and_reg"
+ ],
+ "status": "active",
+ "n_tests": 11
+}

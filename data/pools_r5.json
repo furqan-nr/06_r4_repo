@@ -1,0 +1,816 @@
+{
+ "1.1.2": {
+  "faults": [
+   {
+    "id": "12429",
+    "commit": "d18a74cd4",
+    "date": "2024-06-07",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/quantumcircuit.py"
+    ]
+   },
+   {
+    "id": "12410",
+    "commit": "b12e9ec3c",
+    "date": "2024-05-15",
+    "rust": false,
+    "files": [
+     "qiskit/passmanager/passmanager.py",
+     "qiskit/utils/__init__.py",
+     "qiskit/utils/parallel.py"
+    ]
+   },
+   {
+    "id": "11834",
+    "commit": "8509d9419",
+    "date": "2024-02-22",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/optimization/inverse_cancellation.py"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "N469c9894d",
+    "commit": "469c9894d",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/quantumcircuit.py",
+     "qiskit/circuit/store.py",
+     "qiskit/transpiler/passes/basis/basis_translator.py",
+     "qiskit/transpiler/passes/basis/unroll_custom_definitions.py",
+     "qiskit/transpiler/passes/layout/apply_layout.py",
+     "qiskit/transpiler/passes/layout/sabre_layout.py",
+     "qiskit/transpiler/passes/optimization/optimize_annotated.py",
+     "qiskit/transpiler/passes/routing/stochastic_swap.py",
+     "qiskit/transpiler/passes/synthesis/high_level_synthesis.py",
+     "qiskit/transpiler/passes/utils/gates_basis.py"
+    ]
+   },
+   {
+    "id": "Nff7ba3f1a",
+    "commit": "ff7ba3f1a",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/preset_passmanagers/__init__.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "12429": "d6776058a567829c958474075c135739d11d0db05eb0a721f30e8d5789605f51",
+   "12410": "e5137d6fde7ea3e39d758cea96f21fb0c968091853dbcded483e000f1e257187",
+   "11834": "ced6d7e67894c7df668710d4aed527af9ffc16a53c5899f9a3090e15af81d762"
+  },
+  "clean_wheel_sha256": "29c43b2a0706f198f3ce11d4fcad2d221a26be91f0fb3102bdffe374e3b3398b"
+ },
+ "1.2.4": {
+  "faults": [
+   {
+    "id": "13186",
+    "commit": "adf55e191",
+    "date": "2024-09-19",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/optimization/elide_permutations.py"
+    ]
+   },
+   {
+    "id": "13014",
+    "commit": "a4bf87bf6",
+    "date": "2024-08-23",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/two_qubit_decompose.rs"
+    ]
+   },
+   {
+    "id": "12774",
+    "commit": "85f98605a",
+    "date": "2024-07-30",
+    "rust": true,
+    "files": [
+     "crates/accelerate/Cargo.toml",
+     "crates/qasm2/Cargo.toml",
+     "crates/qasm2/src/bytecode.rs",
+     "crates/qasm2/src/lex.rs",
+     "crates/qasm2/src/parse.rs"
+    ]
+   },
+   {
+    "id": "12742",
+    "commit": "d86f99585",
+    "date": "2024-07-09",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/library/standard_gates/x.py"
+    ]
+   },
+   {
+    "id": "12637",
+    "commit": "67fd35a2e",
+    "date": "2024-07-01",
+    "rust": false,
+    "files": [
+     "qiskit/dagcircuit/dagcircuit.py",
+     "qiskit/transpiler/passes/routing/commuting_2q_gate_routing/pauli_2q_evolution_commutation.py"
+    ]
+   },
+   {
+    "id": "11321",
+    "commit": "f713c78c2",
+    "date": "2024-03-21",
+    "rust": false,
+    "files": [
+     "qiskit/synthesis/evolution/qdrift.py"
+    ]
+   },
+   {
+    "id": "11940",
+    "commit": "6ebb7aa57",
+    "date": "2024-03-06",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/instruction.py"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "N960b1e3bb",
+    "commit": "960b1e3bb",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/__init__.py"
+    ]
+   },
+   {
+    "id": "N9d03b4bf6",
+    "commit": "9d03b4bf6",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/operation.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "13186": "c6e8b4a9130b3031c972a245859aaa6b734e516d9cdab1aa7e4d21635f333726",
+   "13014": "648821e69fb6399143df37073442aabfc39ee54deccc268162ac6c9592bb579a",
+   "12774": "98c4edf49eaf252ddb0f7dfccf6cd7e89a9d23858469fcda7708a554c79d3865",
+   "12742": "055049e01514b792a072f84385a8a593a35d63c3141e9440e7f27c3fc23c2a29",
+   "12637": "16945979ba31e03fa7c604481b6067d64a5a5e018fe619fc83bc948e946a2591",
+   "11321": "c880a605a44fe830f4c073db168ef62ef9b29a44fa9bf84f1b9f3d63d0c9dbc8",
+   "11940": "edbf7ac5fbe0fa04d44954ab022004097a54cc6e6cc493e4e6c8a13a834d07ea"
+  },
+  "clean_wheel_sha256": "3704808888e495f79d66d25599fc6b937650bbc9761a3b4beae1af6e803cc164"
+ },
+ "1.3.3": {
+  "faults": [
+   {
+    "id": "11097",
+    "commit": "6842268a5",
+    "date": "2025-02-13",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/quantumcircuit.py"
+    ]
+   },
+   {
+    "id": "13337",
+    "commit": "5b1a358df",
+    "date": "2024-11-01",
+    "rust": true,
+    "files": [
+     "crates/circuit/src/circuit_data.rs",
+     "qiskit/circuit/quantumcircuit.py"
+    ]
+   },
+   {
+    "id": "11782",
+    "commit": "944e20cee",
+    "date": "2024-02-15",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/duration.py"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "N3100993d2",
+    "commit": "3100993d2",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/optimization/optimize_1q_decomposition.py"
+    ]
+   },
+   {
+    "id": "N3fe73d919",
+    "commit": "3fe73d919",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/library/__init__.py",
+     "qiskit/circuit/library/basis_change/qft.py",
+     "qiskit/circuit/library/generalized_gates/diagonal.py",
+     "qiskit/circuit/library/generalized_gates/gms.py",
+     "qiskit/circuit/library/generalized_gates/isometry.py",
+     "qiskit/circuit/library/generalized_gates/linear_function.py",
+     "qiskit/circuit/library/generalized_gates/permutation.py",
+     "qiskit/circuit/library/generalized_gates/rv.py",
+     "qiskit/synthesis/qft/qft_decompose_full.py",
+     "qiskit/synthesis/qft/qft_decompose_lnn.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "11097": "5674430ba01984154f7f8798cb883854eee00c2cfbcedf778729ccef755168ca",
+   "13337": "64e2dd9ae70635d75232de73d346b0b6c14ed4bc22b9bb6193d9e2ebe9a993fd",
+   "11782": "7f135adfef857e66010bb14a7af91b08b6fe93ad58c40ca4476a5db69deff3ad"
+  },
+  "clean_wheel_sha256": "4d3c696652687c3a86b80850fa8404b2d175ceb9b7c6c161c6c2211b7868dfe3"
+ },
+ "1.4.6": {
+  "faults": [
+   {
+    "id": "13762",
+    "commit": "78e6d3dde",
+    "date": "2025-02-06",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/commutation_checker.rs"
+    ]
+   },
+   {
+    "id": "13670",
+    "commit": "dffc2df68",
+    "date": "2025-01-16",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/commutation_checker.rs"
+    ]
+   },
+   {
+    "id": "13634",
+    "commit": "b98e0d0cb",
+    "date": "2025-01-14",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/circuit_library/pauli_evolution.rs",
+     "crates/accelerate/src/synthesis/evolution/pauli_network.rs",
+     "crates/circuit/src/operations.rs",
+     "qiskit/synthesis/evolution/suzuki_trotter.py"
+    ]
+   },
+   {
+    "id": "13655",
+    "commit": "79f0e7223",
+    "date": "2025-01-13",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/target_transpiler/mod.rs"
+    ]
+   },
+   {
+    "id": "13651",
+    "commit": "d041d5b1c",
+    "date": "2025-01-13",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/unitary_synthesis.rs"
+    ]
+   },
+   {
+    "id": "13591",
+    "commit": "86a5325ef",
+    "date": "2025-01-07",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/unitary_synthesis.rs"
+    ]
+   },
+   {
+    "id": "13606",
+    "commit": "0d4ee23bd",
+    "date": "2025-01-07",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/synthesis/clifford/random_clifford.rs"
+    ]
+   },
+   {
+    "id": "13439",
+    "commit": "74b32c9d2",
+    "date": "2024-11-14",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/sparse_pauli_op.rs"
+    ]
+   },
+   {
+    "id": "13114",
+    "commit": "f2ca9205e",
+    "date": "2024-09-11",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/sabre/layer.rs",
+     "crates/accelerate/src/sabre/route.rs"
+    ]
+   },
+   {
+    "id": "12752",
+    "commit": "1512535a9",
+    "date": "2024-07-26",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/annotated_operation.py",
+     "qiskit/circuit/gate.py",
+     "qiskit/circuit/library/generalized_gates/unitary.py",
+     "qiskit/circuit/library/standard_gates/h.py",
+     "qiskit/circuit/library/standard_gates/multi_control_rotation_gates.py",
+     "qiskit/circuit/library/standard_gates/p.py",
+     "qiskit/circuit/library/standard_gates/rx.py",
+     "qiskit/circuit/library/standard_gates/rxx.py",
+     "qiskit/circuit/library/standard_gates/ry.py",
+     "qiskit/circuit/library/standard_gates/ryy.py",
+     "qiskit/circuit/library/standard_gates/rz.py",
+     "qiskit/circuit/library/standard_gates/rzx.py",
+     "qiskit/circuit/library/standard_gates/rzz.py",
+     "qiskit/circuit/library/standard_gates/s.py",
+     "qiskit/circuit/library/standard_gates/swap.py",
+     "qiskit/circuit/library/standard_gates/sx.py",
+     "qiskit/circuit/library/standard_gates/u.py",
+     "qiskit/circuit/library/standard_gates/u1.py",
+     "qiskit/circuit/library/standard_gates/u3.py",
+     "qiskit/circuit/library/standard_gates/x.py",
+     "qiskit/circuit/library/standard_gates/xx_minus_yy.py",
+     "qiskit/circuit/library/standard_gates/xx_plus_yy.py",
+     "qiskit/circuit/library/standard_gates/y.py",
+     "qiskit/circuit/library/standard_gates/z.py",
+     "qiskit/circuit/quantumcircuit.py"
+    ]
+   },
+   {
+    "id": "11787",
+    "commit": "9c1accb79",
+    "date": "2024-02-22",
+    "rust": false,
+    "files": [
+     "qiskit/passmanager/passmanager.py"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "N95dcc4279",
+    "commit": "95dcc4279",
+    "rust": false,
+    "files": [
+     "qiskit/dagcircuit/__init__.py",
+     "qiskit/dagcircuit/collect_blocks.py"
+    ]
+   },
+   {
+    "id": "N2916d9fab",
+    "commit": "2916d9fab",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/__init__.py",
+     "qiskit/circuit/parametervector.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "13762": "75e9766a3256224698b06b73104913088a1161caa53f546510f0fadc9b545ad8",
+   "13670": "89b82f3a161422ba719f438599abb8a3f1a4d637482e5a10ffdcb52749897ef3",
+   "13634": "5e588422d9c129b9c8823d3dd24ca21a031bde55a1720ac0f9d665d4b3eb3f91",
+   "13655": "7f7b508183ed4c00b5d91f8695e07394675222a6a77b959cf530b5d165579435",
+   "13651": "7bce3acbe4efe50ab539c458ad42fd14d254c03ae990aa204c29561a3ae9ac12",
+   "13591": "76999dce431547059777b0f1f8082223d782b5e6f8b38cbfd3ee1446694ef571",
+   "13606": "c816c8a8b8a6c9e8e6ab7ff5ff235b881a20d97fe7d66fe1af6e146a11f63a93",
+   "13439": "56b467c13e9f55bd57d02e746765c2a86b481a1969eb50fb5ab635c40d48a964",
+   "13114": "8e0029bf8432132e203b042b632f75064875a7e0edacdbb50e61cd4d03c7d295",
+   "12752": "ca0e95a622f3beaed7c6dbff311766d5382c44d0e28c773c76e12dc72197f7fb",
+   "11787": "4c4fe55499a742ac045a0d48d2963866e173518df831a6d512344b7984749b4f"
+  },
+  "clean_wheel_sha256": "81115eaf838fb0d02bad84200f2f6b6ea41f1de49764eadccd578a4aef067596"
+ },
+ "2.0.3": {
+  "faults": [
+   {
+    "id": "14304",
+    "commit": "6d4c92890",
+    "date": "2025-05-07",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/synthesis/solovay_kitaev_synthesis.py"
+    ]
+   },
+   {
+    "id": "14217",
+    "commit": "68926088b",
+    "date": "2025-05-05",
+    "rust": false,
+    "files": [
+     "qiskit/synthesis/discrete_basis/commutator_decompose.py",
+     "qiskit/synthesis/discrete_basis/gate_sequence.py",
+     "qiskit/synthesis/discrete_basis/generate_basis_approximations.py",
+     "qiskit/synthesis/discrete_basis/solovay_kitaev.py"
+    ]
+   },
+   {
+    "id": "14174",
+    "commit": "b0bc6d8cb",
+    "date": "2025-04-07",
+    "rust": true,
+    "files": [
+     "crates/circuit/src/duration.rs",
+     "crates/circuit/src/lib.rs"
+    ]
+   },
+   {
+    "id": "14065",
+    "commit": "6ce778870",
+    "date": "2025-03-25",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/target_transpiler/mod.rs",
+     "qiskit/transpiler/preset_passmanagers/generate_preset_pass_manager.py",
+     "qiskit/transpiler/target.py"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "N2b1d80378",
+    "commit": "2b1d80378",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/quantumcircuit.py"
+    ]
+   },
+   {
+    "id": "Nee96573a8",
+    "commit": "ee96573a8",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/classical/expr/constructors.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "14304": "7f67faf36858323b10cf2600c54f1c094d57aabee260596d1ede6babd980371f",
+   "14217": "c02b13facba0ad6c436f6e87afa64eb3ac15bef559b33c882fa632a937db687d",
+   "14174": "aa98287f49f22725b2391b5f5c2dc85f744cc49bd86520636a49d7c8a9266fe8",
+   "14065": "bd2cf339498be1ed84d8325c20be26ca2d336c7254e73265f67a8e31463b39ce"
+  },
+  "clean_wheel_sha256": "30c84ac674476bbdd2f29d11f397caa5aff95161927411e71f1e6a520fed5b07"
+ },
+ "2.1.2": {
+  "faults": [
+   {
+    "id": "14765",
+    "commit": "132636541",
+    "date": "2025-07-21",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/gate_direction.rs",
+     "crates/transpiler/src/target/mod.rs"
+    ]
+   },
+   {
+    "id": "14597",
+    "commit": "9ec464af4",
+    "date": "2025-06-16",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/high_level_synthesis.rs"
+    ]
+   },
+   {
+    "id": "14606",
+    "commit": "d0630fd19",
+    "date": "2025-06-16",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/layout/apply_layout.py"
+    ]
+   },
+   {
+    "id": "14488",
+    "commit": "985bd7a8a",
+    "date": "2025-05-28",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/routing/sabre_swap.py"
+    ]
+   },
+   {
+    "id": "14363",
+    "commit": "6ca3d22bc",
+    "date": "2025-05-15",
+    "rust": true,
+    "files": [
+     "crates/accelerate/src/circuit_library/iqp.rs"
+    ]
+   },
+   {
+    "id": "14330",
+    "commit": "bf828a77b",
+    "date": "2025-05-08",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/scheduling/alignments/check_durations.py"
+    ]
+   },
+   {
+    "id": "14186",
+    "commit": "2504bde2f",
+    "date": "2025-04-07",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/layout/sabre_layout.py"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "Nb5d2f2261",
+    "commit": "b5d2f2261",
+    "rust": false,
+    "files": [
+     "qiskit/dagcircuit/__init__.py",
+     "qiskit/dagcircuit/collect_blocks.py"
+    ]
+   },
+   {
+    "id": "N8140c8aeb",
+    "commit": "8140c8aeb",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/instruction_durations.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "14765": "8e78905f4c504c43bb6e09d14aa4991dba8f533289a96900d85ad5eed9639f03",
+   "14597": "159a6fa3d1d67d9f2d83fc446f87b0174ba8ed922bf9b8e36995899bce34e2f6",
+   "14606": "3d52c758cddb7fbaae3fe29674de403ae252214fbf4f6c5117095cbb9452cd05",
+   "14488": "32a000bec153ecf216d6f088eedc17f044c40ccd605f934a1e580f19a4046b57",
+   "14363": "d916bcedc0af8b9f88916ff91f6a7de20d1f9b433e3e3d6f83725c339e7dd976",
+   "14330": "7f56695b02886ec8284bd13fedb984c279b57f8edb907c8a1eea2f391199af93",
+   "14186": "00fed8381b51d5100c36d65877da34c656230a21a783dcbd5ea65734c474db4a"
+  },
+  "clean_wheel_sha256": "d81bcd5eb08ea6c121bb18af90fce5ac8d31a5b7adf13982d3c9b68e421a8963"
+ },
+ "2.2.3": {
+  "faults": [
+   {
+    "id": "15147",
+    "commit": "cd49fb74b",
+    "date": "2025-10-20",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/alap_schedule_analysis.rs",
+     "crates/transpiler/src/passes/asap_schedule_analysis.rs"
+    ]
+   },
+   {
+    "id": "15143",
+    "commit": "21a8dec17",
+    "date": "2025-10-09",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/basis_translator/mod.rs"
+    ]
+   },
+   {
+    "id": "15074",
+    "commit": "a816e64bb",
+    "date": "2025-09-25",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/sabre/neighbors.rs",
+     "crates/transpiler/src/passes/sabre/route.rs"
+    ]
+   },
+   {
+    "id": "14938",
+    "commit": "2577bc182",
+    "date": "2025-08-22",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/layout/vf2_layout.py",
+     "qiskit/transpiler/passes/layout/vf2_post_layout.py",
+     "qiskit/transpiler/passes/layout/vf2_utils.py"
+    ]
+   },
+   {
+    "id": "14728",
+    "commit": "f65ba34ce",
+    "date": "2025-08-13",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/library/standard_gates/x.py"
+    ]
+   },
+   {
+    "id": "14716",
+    "commit": "925f1441b",
+    "date": "2025-07-10",
+    "rust": false,
+    "files": [
+     "qiskit/dagcircuit/dagnode.py"
+    ]
+   },
+   {
+    "id": "14349",
+    "commit": "de41d1a50",
+    "date": "2025-05-13",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/high_level_synthesis.rs"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "N7547786a4",
+    "commit": "7547786a4",
+    "rust": false,
+    "files": [
+     "qiskit/synthesis/multi_controlled/mcx_synthesis.py",
+     "qiskit/transpiler/passes/synthesis/hls_plugins.py"
+    ]
+   },
+   {
+    "id": "Nadf7b04bb",
+    "commit": "adf7b04bb",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/target.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "15147": "150948bc71d1fea9b77216931aedcf83eb65a5ad58f6eaccd33982a136418104",
+   "15143": "a16eaf7323bc4e0fd4b29175a2cf58c8fb6ae83b6c778a567e123865230c0022",
+   "15074": "3ca1693ad5fa6c062609afb2a74171910c84cf8ab0b456b866943f6ee5abbdec",
+   "14938": "86a5df450e1333409510fd25a67854a2a16cea950d35fdd32491c451451f55f9",
+   "14728": "99c25e2ed3bfb0695ee6b103ef8acd98d0fb68c5fdbba7d2edbc520c49affe99",
+   "14716": "2d98304380ebd412e72271405411f831e677bbe288cc8eebdf46494271755241",
+   "14349": "01ca3e2f2420fa4b4ad5984da055ed502f5e16dc55676dbf78cf6a694e580220"
+  },
+  "clean_wheel_sha256": "abdeccfda7bf6e6d36c0edd721afe2ee189a130d03b5a5313208c43be2d675f6"
+ },
+ "2.4.2": {
+  "faults": [
+   {
+    "id": "16054",
+    "commit": "16c808857",
+    "date": "2026-04-17",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/remove_identity_equiv.rs"
+    ]
+   },
+   {
+    "id": "15875",
+    "commit": "9c8f4fc53",
+    "date": "2026-03-26",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/basis_translator/mod.rs"
+    ]
+   },
+   {
+    "id": "15782",
+    "commit": "1aeb988c2",
+    "date": "2026-03-22",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/library/data_preparation/initializer.py"
+    ]
+   },
+   {
+    "id": "15436",
+    "commit": "b1557f68d",
+    "date": "2026-01-08",
+    "rust": true,
+    "files": [
+     "crates/circuit/src/operations.rs"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "N3e1f8ee40",
+    "commit": "3e1f8ee40",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/library/arithmetic/adders/draper_qft_adder.py"
+    ]
+   },
+   {
+    "id": "N94289464d",
+    "commit": "94289464d",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/library/standard_gates/i.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "16054": "b2d2b51dc0def79395b1b7ebde32882ea14a91d015c583f5c35c78d0cab660a6",
+   "15875": "db78c96fbdd7a3a595cfa9a95491b5d5b0536a3a753fcf7cca822e06023faf32",
+   "15782": "4cd3c974f322fc17d268489a586c352df72941c105f3b187fea6bd86014e3b48",
+   "15436": "64e3a7277dcd6c88546dd14f298d93be69ccde627b2080390c7697b1d34c5e1c"
+  },
+  "clean_wheel_sha256": "11ba53fc3ff7d0c342b2396ede7865f478c64eb171a335298b4c847de752161d"
+ },
+ "2.5.2": {
+  "faults": [
+   {
+    "id": "16362",
+    "commit": "5eaacce9f",
+    "date": "2026-07-23",
+    "rust": true,
+    "files": [
+     "crates/circuit/src/dag_circuit.rs"
+    ]
+   },
+   {
+    "id": "16592",
+    "commit": "2440bbb99",
+    "date": "2026-07-23",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/optimize_1q_gates_decomposition.rs"
+    ]
+   },
+   {
+    "id": "16175",
+    "commit": "34cb82b45",
+    "date": "2026-06-02",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/tools/pi_check.py"
+    ]
+   },
+   {
+    "id": "16163",
+    "commit": "1e13f2430",
+    "date": "2026-05-18",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/passes/commutative_optimization.rs"
+    ]
+   },
+   {
+    "id": "15967",
+    "commit": "858acb4aa",
+    "date": "2026-04-13",
+    "rust": true,
+    "files": [
+     "crates/transpiler/src/transpiler.rs"
+    ]
+   },
+   {
+    "id": "15816",
+    "commit": "6d0f976c6",
+    "date": "2026-03-17",
+    "rust": false,
+    "files": [
+     "qiskit/circuit/library/pauli_evolution.py"
+    ]
+   }
+  ],
+  "benign": [
+   {
+    "id": "Ncee79bc66",
+    "commit": "cee79bc66",
+    "rust": false,
+    "files": [
+     "qiskit/synthesis/two_qubit/two_qubit_decompose.py"
+    ]
+   },
+   {
+    "id": "N0e10a7cef",
+    "commit": "0e10a7cef",
+    "rust": false,
+    "files": [
+     "qiskit/transpiler/passes/synthesis/hls_plugins.py"
+    ]
+   }
+  ],
+  "fault_patch_sha256": {
+   "16362": "e779e4d3a755af9f88f2af75c05406833486468983a7a9e8361ddc6c8f9b7388",
+   "16592": "c53943e50f72c9ef36558eb4eb95825658c18a4a09334474c97314591308646a",
+   "16175": "dc5f783774ee7f3b7561a9d8fa1a3afa006c003bae0341e96132e4d9f870b5df",
+   "16163": "2565973c98689be55e50c25139a0c8a7f0b062bce462f0e1692a330c0bebcf76",
+   "15967": "5879be8205cf7fcd8de97e83aa05bb641faae3ee23ccafc5caf1f373381598e9",
+   "15816": "b1db8e3094b2549770d81252a47cf0bec6f50bf3fc09ece5a3ed4a72d8fafa44"
+  },
+  "clean_wheel_sha256": "0c105045e8b392ba414829f7bfe7331b9cbf12e7d2a7423d925a7d6edf7e90d9"
+ }
+}

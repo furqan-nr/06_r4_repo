@@ -1,0 +1,28 @@
+{
+ "id": "17165",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "73ef434bb",
+ "test_files": [
+  "test/python/qpy/test_serialize_value_objects.py"
+ ],
+ "clean": {
+  "test.python.qpy.test_serialize_value_objects.TestQpySerializeParameterExpression::test_roundtrip_assigned_values": "pass",
+  "test.python.qpy.test_serialize_value_objects.TestQpySerializeParameterExpression::test_roundtrip_equal": "pass",
+  "test.python.qpy.test_serialize_value_objects.TestPauliEvolution::test_pauli_evolution_operator_list": "pass",
+  "test.python.qpy.test_serialize_value_objects.TestPauliEvolution::test_pauli_evolution_sparse_pauliop": "pass",
+  "test.python.qpy.test_serialize_value_objects.TestPauliEvolution::test_pauli_evolution_sparseobservable": "pass"
+ },
+ "fault": {
+  "test.python.qpy.test_serialize_value_objects.TestQpySerializeParameterExpression::test_roundtrip_assigned_values": "fail",
+  "test.python.qpy.test_serialize_value_objects.TestQpySerializeParameterExpression::test_roundtrip_equal": "pass",
+  "test.python.qpy.test_serialize_value_objects.TestPauliEvolution::test_pauli_evolution_operator_list": "pass",
+  "test.python.qpy.test_serialize_value_objects.TestPauliEvolution::test_pauli_evolution_sparse_pauliop": "pass",
+  "test.python.qpy.test_serialize_value_objects.TestPauliEvolution::test_pauli_evolution_sparseobservable": "pass"
+ },
+ "triggers": [
+  "test.python.qpy.test_serialize_value_objects.TestQpySerializeParameterExpression::test_roundtrip_assigned_values"
+ ],
+ "status": "active",
+ "n_tests": 5
+}

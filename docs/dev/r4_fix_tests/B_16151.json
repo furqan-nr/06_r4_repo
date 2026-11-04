@@ -1,0 +1,48 @@
+{
+ "id": "16151",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "c9c5673e0",
+ "test_files": [
+  "test/python/transpiler/test_scheduling_padding_pass.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_alap_agree_with_reverse_asap_reverse": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_alap_agree_with_reverse_asap_with_target": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_constrained_reschedule_accepts_barrier": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_empty_circuit_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_empty_circuit_2_ASAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_measure_after_measure_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_measure_after_measure_2_ASAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_no_pad_very_end_of_circuit": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_padding_not_working_without_scheduling": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_parallel_gate_different_length": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_parallel_gate_different_length_with_barrier": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_respect_target_instruction_constraints_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_respect_target_instruction_constraints_2_ASAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_shorter_measure_after_measure_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_shorter_measure_after_measure_2_ASAPScheduleAnalysis": "pass"
+ },
+ "fault": {
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_alap_agree_with_reverse_asap_reverse": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_alap_agree_with_reverse_asap_with_target": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_constrained_reschedule_accepts_barrier": "fail",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_empty_circuit_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_empty_circuit_2_ASAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_measure_after_measure_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_measure_after_measure_2_ASAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_no_pad_very_end_of_circuit": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_padding_not_working_without_scheduling": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_parallel_gate_different_length": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_parallel_gate_different_length_with_barrier": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_respect_target_instruction_constraints_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_respect_target_instruction_constraints_2_ASAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_shorter_measure_after_measure_1_ALAPScheduleAnalysis": "pass",
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_shorter_measure_after_measure_2_ASAPScheduleAnalysis": "pass"
+ },
+ "triggers": [
+  "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_constrained_reschedule_accepts_barrier"
+ ],
+ "status": "active",
+ "n_tests": 15
+}

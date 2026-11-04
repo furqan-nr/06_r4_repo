@@ -1,0 +1,318 @@
+{
+"1.4.6_11585_F0": {
+"alarmed": 1,
+"changed": 7
+},
+"1.4.6_11585_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_11907_F0": {
+"alarmed": 1,
+"changed": 7
+},
+"1.4.6_11907_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_12137_F0": {
+"alarmed": 1,
+"changed": 111
+},
+"1.4.6_12137_G20261201": {
+"alarmed": 0,
+"changed": 383
+},
+"1.4.6_12469_F0": {
+"alarmed": 1,
+"changed": 8
+},
+"1.4.6_12469_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_12952_F0": {
+"alarmed": 0,
+"changed": 6
+},
+"1.4.6_12952_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_12976_F0": {
+"alarmed": 1,
+"changed": 9
+},
+"1.4.6_12976_G20261201": {
+"alarmed": 0,
+"changed": 367
+},
+"1.4.6_12986_F0": {
+"alarmed": 1,
+"changed": 8
+},
+"1.4.6_12986_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_13067_F0": {
+"alarmed": 169,
+"changed": 181
+},
+"1.4.6_13121_F0": {
+"alarmed": 4,
+"changed": 18
+},
+"1.4.6_13181_F0": {
+"alarmed": 1,
+"changed": 7
+},
+"1.4.6_13181_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_13417_F0": {
+"alarmed": 0,
+"changed": 7
+},
+"1.4.6_13417_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_13454_F0": {
+"alarmed": 1,
+"changed": 8
+},
+"1.4.6_13454_G20261201": {
+"alarmed": 0,
+"changed": 423
+},
+"1.4.6_13517_F0": {
+"alarmed": 1,
+"changed": 7
+},
+"1.4.6_13517_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"1.4.6_13530_F0": {
+"alarmed": 0,
+"changed": 6
+},
+"1.4.6_13530_G20261201": {
+"alarmed": 47,
+"changed": 424
+},
+"1.4.6_13538_F0": {
+"alarmed": 0,
+"changed": 48
+},
+"1.4.6_13538_G20261201": {
+"alarmed": 0,
+"changed": 391
+},
+"1.4.6_13545_F0": {
+"alarmed": 1,
+"changed": 21
+},
+"1.4.6_13545_G20261201": {
+"alarmed": 0,
+"changed": 414
+},
+"1.4.6_13833_F0": {
+"alarmed": 8,
+"changed": 15
+},
+"1.4.6_NULL_F0": {
+"alarmed": 1,
+"changed": 8
+},
+"1.4.6_NULL_G20261201": {
+"alarmed": 0,
+"changed": 358
+},
+"2.3.1_14539_F0": {
+"alarmed": 0,
+"changed": 2
+},
+"2.3.1_14539_G20261201": {
+"alarmed": 0,
+"changed": 3
+},
+"2.3.1_14655_F0": {
+"alarmed": 17,
+"changed": 23
+},
+"2.3.1_14934_F0": {
+"alarmed": 0,
+"changed": 4
+},
+"2.3.1_14934_G20261201": {
+"alarmed": 0,
+"changed": 0
+},
+"2.3.1_15258_F0": {
+"alarmed": 9,
+"changed": 13
+},
+"2.3.1_15781_F0": {
+"alarmed": 1,
+"changed": 4
+},
+"2.3.1_15781_G20261201": {
+"alarmed": 0,
+"changed": 4
+},
+"2.3.1_NULL_F0": {
+"alarmed": 1,
+"changed": 4
+},
+"2.3.1_NULL_G20261201": {
+"alarmed": 0,
+"changed": 3
+},
+"2.6.1_15181_F0": {
+"alarmed": 1,
+"changed": 4
+},
+"2.6.1_15181_G20261201": {
+"alarmed": 3,
+"changed": 144
+},
+"2.6.1_15646_F0": {
+"alarmed": 2,
+"changed": 6
+},
+"2.6.1_15646_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_15944_F0": {
+"alarmed": 0,
+"changed": 2
+},
+"2.6.1_15944_G20261201": {
+"alarmed": 2,
+"changed": 3
+},
+"2.6.1_16151_F0": {
+"alarmed": 12,
+"changed": 14
+},
+"2.6.1_16323_F0": {
+"alarmed": 2,
+"changed": 5
+},
+"2.6.1_16323_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_16337_F0": {
+"alarmed": 1,
+"changed": 4
+},
+"2.6.1_16337_G20261201": {
+"alarmed": 2,
+"changed": 4
+},
+"2.6.1_16394_F0": {
+"alarmed": 0,
+"changed": 3
+},
+"2.6.1_16394_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_16459_F0": {
+"alarmed": 1,
+"changed": 4
+},
+"2.6.1_16459_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_16492_F0": {
+"alarmed": 2,
+"changed": 5
+},
+"2.6.1_16492_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_16530_F0": {
+"alarmed": 1,
+"changed": 4
+},
+"2.6.1_16530_G20261201": {
+"alarmed": 2,
+"changed": 3
+},
+"2.6.1_16729_F0": {
+"alarmed": 1,
+"changed": 5
+},
+"2.6.1_16729_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_16834_F0": {
+"alarmed": 3,
+"changed": 85
+},
+"2.6.1_16880_F0": {
+"alarmed": 2,
+"changed": 4
+},
+"2.6.1_16880_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_16883_F0": {
+"alarmed": 2,
+"changed": 5
+},
+"2.6.1_16883_G20261201": {
+"alarmed": 2,
+"changed": 3
+},
+"2.6.1_16896_F0": {
+"alarmed": 2,
+"changed": 3
+},
+"2.6.1_16896_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_16920_F0": {
+"alarmed": 1,
+"changed": 3
+},
+"2.6.1_16920_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_17117_F0": {
+"alarmed": 2,
+"changed": 5
+},
+"2.6.1_17117_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_17269_F0": {
+"alarmed": 2,
+"changed": 3
+},
+"2.6.1_17269_G20261201": {
+"alarmed": 2,
+"changed": 2
+},
+"2.6.1_NULL_F0": {
+"alarmed": 1,
+"changed": 4
+},
+"2.6.1_NULL_G20261201": {
+"alarmed": 2,
+"changed": 2
+}
+}

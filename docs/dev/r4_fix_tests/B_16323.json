@@ -1,0 +1,26 @@
+{
+ "id": "16323",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "21df110bc",
+ "test_files": [
+  "test/python/converters/test_circuit_to_dagdependency.py"
+ ],
+ "clean": {
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_circuit_and_dag_canonical": "pass",
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_circuit_and_dag_canonical2": "pass",
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_global_phase": "pass",
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_metadata": "pass"
+ },
+ "fault": {
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_circuit_and_dag_canonical": "pass",
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_circuit_and_dag_canonical2": "pass",
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_global_phase": "fail",
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_metadata": "pass"
+ },
+ "triggers": [
+  "test.python.converters.test_circuit_to_dagdependency.TestCircuitToDagCanonical::test_global_phase"
+ ],
+ "status": "active",
+ "n_tests": 4
+}

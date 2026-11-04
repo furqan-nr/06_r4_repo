@@ -1,4 +1,4 @@
-# Input-feature coverage and pass-level testing for quantum compiler regression tests
+# Revealing real Qiskit compiler faults: registrations R4 and R5
 
 Status: **registration R4** (`PREREGISTRATION_R4.md`, frozen files listed in `PREREGISTRATION_R4.sha256`). No R4 session had run when it was pushed. The held-out faults were built, but none had compiled a corpus unit or been seen by any check.
 
@@ -31,3 +31,16 @@ The checks (output, quality, statevector probe, contract, determinism lane) and 
 ## Held-out faults
 
 `selection/pools.json` lists the held-out faults by pull-request number. **Do not open these pull requests, their patches or their tests before registration.** Doing so would have to be disclosed and weakens the held-out claim.
+
+## Registration R5
+
+`PREREGISTRATION_R5.md` (frozen files in `PREREGISTRATION_R5.sha256`, written by `tools/freeze_r5.py`). R5 tests a suite that reaches more of Qiskit's public compilation interface and more kinds of input, on 52 new held-out real faults from nine Qiskit versions. Its files sit beside R4's, which are unchanged:
+
+| Path | What |
+|---|---|
+| `r5/` | input model (`gen5.py`), item catalogue (`items5.py`), session driver (`session5.py`, `worker5.py`), registered analysis (`analyze5.py`), compatibility for older Qiskit (`compat.py`) |
+| `data/suites_r5.json`, `data/pools_r5.json` | suites, and the fault and benign pools without titles |
+| `selection/mine_r5.py`, `selection/mine_benign.py` | fault-blind mining |
+| `builds/kaggle_build.py`, `builds/make_wheelhouse5.py`, `builds/split_deps.py`, `builds/records/build_*.json` | builds and their records |
+| `kaggle/nb_r5_session.ipynb` | the session notebook |
+| `docs/DESIGN_LOG_R5.md`, `docs/dev/` | design log and development evidence |

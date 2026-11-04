@@ -1,0 +1,20 @@
+{
+ "id": "16249",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "59bc96eea",
+ "test_files": [
+  "test/python/transpiler/test_constrained_reschedule.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_constrained_reschedule.TestConstrainedReschedule::test_alignment_only_construction": "pass",
+  "test.python.transpiler.test_constrained_reschedule.TestConstrainedReschedule::test_no_panic_underflow": "pass"
+ },
+ "fault": {
+  "test.python.transpiler.test_constrained_reschedule.TestConstrainedReschedule::test_alignment_only_construction": "pass",
+  "test.python.transpiler.test_constrained_reschedule.TestConstrainedReschedule::test_no_panic_underflow": "pass"
+ },
+ "triggers": [],
+ "status": "no trigger",
+ "n_tests": 2
+}

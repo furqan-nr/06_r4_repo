@@ -1,0 +1,34 @@
+{
+ "id": "13121",
+ "pool": "C24",
+ "base": "1.4.6",
+ "commit": "8929e12ba",
+ "test_files": [
+  "test/python/circuit/test_rust_equivalence.py"
+ ],
+ "clean": {
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_definitions": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_extracted_as_standard_gate": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_gate_cross_domain_conversion": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_matrix": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_name": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_non_default_controls": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_num_params": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_num_qubits": "pass"
+ },
+ "fault": {
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_definitions": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_extracted_as_standard_gate": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_gate_cross_domain_conversion": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_matrix": "fail",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_name": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_non_default_controls": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_num_params": "pass",
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_num_qubits": "pass"
+ },
+ "triggers": [
+  "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_matrix"
+ ],
+ "status": "active",
+ "n_tests": 8
+}

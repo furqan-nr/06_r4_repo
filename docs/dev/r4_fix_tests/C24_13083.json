@@ -1,0 +1,38 @@
+{
+ "id": "13083",
+ "pool": "C24",
+ "base": "1.4.6",
+ "commit": "576efcf14",
+ "test_files": [
+  "test/python/transpiler/test_hoare_opt.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_control_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_cswap_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_is_identity": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_lnn_cnot_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_lnncnot_advanced_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_multiple_pass": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_phasegate_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_remove_control_then_identity": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_successive_identity_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_targetsuccessive_identity_advanced_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_targetsuccessive_identity_removal": "skip"
+ },
+ "fault": {
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_control_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_cswap_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_is_identity": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_lnn_cnot_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_lnncnot_advanced_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_multiple_pass": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_phasegate_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_remove_control_then_identity": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_successive_identity_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_targetsuccessive_identity_advanced_removal": "skip",
+  "test.python.transpiler.test_hoare_opt.TestHoareOptimizer::test_targetsuccessive_identity_removal": "skip"
+ },
+ "triggers": [],
+ "status": "no trigger",
+ "n_tests": 11
+}

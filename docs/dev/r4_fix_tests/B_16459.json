@@ -1,0 +1,62 @@
+{
+ "id": "16459",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "5647a6109",
+ "test_files": [
+  "test/python/transpiler/test_swap_strategy_router.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_basic_xx": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_basic_xx_with_measure": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_basic_zz": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_ccx": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_edge_coloring_1": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_edge_coloring_2": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_enlarge_with_ancilla": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_global_phase_preserved_without_commuting_blocks": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_idle_qubit": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_permutation_tracking": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_qaoa": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_single_qubit_circuit": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_t_device": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblock_parameter_reuse": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblock_preserves_parameters": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblocks_errors": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_dangling_qubits": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_deficient_swap_strategy": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_no_swap_strategy": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_parameters_when_appending_commuting2qblock_to_a_circuit": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_too_many_registers": "pass"
+ },
+ "fault": {
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_basic_xx": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_basic_xx_with_measure": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_basic_zz": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_ccx": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_edge_coloring_1": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_edge_coloring_2": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_enlarge_with_ancilla": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_global_phase_preserved_without_commuting_blocks": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_idle_qubit": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_permutation_tracking": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_qaoa": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_single_qubit_circuit": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestPauliEvolutionSwapStrategies::test_t_device": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblock_parameter_reuse": "fail",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblock_preserves_parameters": "fail",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblocks_errors": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_dangling_qubits": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_deficient_swap_strategy": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_no_swap_strategy": "pass",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_parameters_when_appending_commuting2qblock_to_a_circuit": "fail",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_too_many_registers": "pass"
+ },
+ "triggers": [
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblock_parameter_reuse",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_commuting2qblock_preserves_parameters",
+  "test.python.transpiler.test_swap_strategy_router.TestSwapRouterExceptions::test_parameters_when_appending_commuting2qblock_to_a_circuit"
+ ],
+ "status": "active",
+ "n_tests": 21
+}

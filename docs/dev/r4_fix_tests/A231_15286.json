@@ -1,0 +1,32 @@
+{
+ "id": "15286",
+ "pool": "A231",
+ "base": "2.3.1",
+ "commit": "52af4781c",
+ "test_files": [
+  "test/python/transpiler/test_unitary_synthesis_plugin.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_all_keywords_passed_to_default_on_fallback": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_call_registered_class": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_config_not_passed_to_default_on_fallback": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_config_passed_to_non_default": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_max_qubits_are_respected": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_min_qubits_are_respected": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_mock_plugins_registered": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_target_overrides_basis_gates": "fail"
+ },
+ "fault": {
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_all_keywords_passed_to_default_on_fallback": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_call_registered_class": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_config_not_passed_to_default_on_fallback": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_config_passed_to_non_default": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_max_qubits_are_respected": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_min_qubits_are_respected": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_mock_plugins_registered": "fail",
+  "test.python.transpiler.test_unitary_synthesis_plugin.TestUnitarySynthesisPlugin::test_target_overrides_basis_gates": "fail"
+ },
+ "triggers": [],
+ "status": "no trigger",
+ "n_tests": 8
+}

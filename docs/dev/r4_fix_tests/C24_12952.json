@@ -1,0 +1,58 @@
+{
+ "id": "12952",
+ "pool": "C24",
+ "base": "1.4.6",
+ "commit": "9252713e5",
+ "test_files": [
+  "test/python/transpiler/test_dynamical_decoupling.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_asymmetric_xy4_in_t2": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_after_reset": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_can_sequentially_called": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_with_calibrations_with_parameters_1_0_5": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_with_calibrations_with_parameters_2_1_5": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_bad_sequence": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_everywhere": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_one_qubit": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_with_target": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_xy4": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_xy4_with_alignment": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_with_pulse_gate_calibrations": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_with_pulse_gate_calibrations_with_parmas": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_ghz_uhrig": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_midmeas_hahn_alap": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_midmeas_hahn_asap": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_misalignment_at_boundaries": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_paramaterized_global_phase": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_respect_target_instruction_constraints": "pass"
+ },
+ "fault": {
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_asymmetric_xy4_in_t2": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_after_reset": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_can_sequentially_called": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_with_calibrations_with_parameters_1_0_5": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_dd_with_calibrations_with_parameters_2_1_5": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_bad_sequence": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_everywhere": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_one_qubit": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_with_target": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_xy4": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_ghz_xy4_with_alignment": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_with_pulse_gate_calibrations": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_dd_with_pulse_gate_calibrations_with_parmas": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_ghz_uhrig": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_midmeas_hahn_alap": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_insert_midmeas_hahn_asap": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_misalignment_at_boundaries": "fail",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_paramaterized_global_phase": "pass",
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_respect_target_instruction_constraints": "pass"
+ },
+ "triggers": [
+  "test.python.transpiler.test_dynamical_decoupling.TestPadDynamicalDecoupling::test_misalignment_at_boundaries"
+ ],
+ "status": "active",
+ "n_tests": 20
+}

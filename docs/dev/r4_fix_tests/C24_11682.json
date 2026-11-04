@@ -1,0 +1,36 @@
+{
+ "id": "11682",
+ "pool": "C24",
+ "base": "1.4.6",
+ "commit": "8b6e4fe0f",
+ "test_files": [
+  "test/python/circuit/library/test_evolved_op_ansatz.py"
+ ],
+ "clean": {
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_changing_operators": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_custom_evolution": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_empty_build_fails": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_empty_operator_list": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_evolved_op_ansatz": "fail",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_flattened": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_insert_barriers": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_invalid_reps": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_matrix_operator": "pass"
+ },
+ "fault": {
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_changing_operators": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_custom_evolution": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_empty_build_fails": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_empty_operator_list": "fail",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_evolved_op_ansatz": "fail",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_flattened": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_insert_barriers": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_invalid_reps": "pass",
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_matrix_operator": "pass"
+ },
+ "triggers": [
+  "test.python.circuit.library.test_evolved_op_ansatz.TestEvolvedOperatorAnsatz::test_empty_operator_list"
+ ],
+ "status": "active",
+ "n_tests": 9
+}

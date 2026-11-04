@@ -1,0 +1,28 @@
+{
+ "id": "16443",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "2cf97b58e",
+ "test_files": [
+  "test/python/result/test_sampled_expval.py"
+ ],
+ "clean": {
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_asym_ops": "pass",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_complex_coefficient": "pass",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_probdist": "pass",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_same": "pass",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_simple": "pass"
+ },
+ "fault": {
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_asym_ops": "pass",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_complex_coefficient": "fail",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_probdist": "pass",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_same": "pass",
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_simple": "pass"
+ },
+ "triggers": [
+  "test.python.result.test_sampled_expval.TestSampledExpval::test_complex_coefficient"
+ ],
+ "status": "active",
+ "n_tests": 5
+}

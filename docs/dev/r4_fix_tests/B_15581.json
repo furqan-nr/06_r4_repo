@@ -1,0 +1,39 @@
+{
+ "id": "15581",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "aedc6f0aa",
+ "test_files": [
+  "test/python/transpiler/test_contract_idle_wires_in_control_flow.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_box_is_ignored": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_break_loop": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_continue_loop": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_contract_if_else_both_bodies": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_disparate_if_else_left_alone": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_handles_registers_in_contraction": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_handles_vars_in_contraction": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_nothing_to_do": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_recursively_contract": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_simple_body": "pass"
+ },
+ "fault": {
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_box_is_ignored": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_break_loop": "fail",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_continue_loop": "fail",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_contract_if_else_both_bodies": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_disparate_if_else_left_alone": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_handles_registers_in_contraction": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_handles_vars_in_contraction": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_nothing_to_do": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_recursively_contract": "pass",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_simple_body": "pass"
+ },
+ "triggers": [
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_break_loop",
+  "test.python.transpiler.test_contract_idle_wires_in_control_flow.TestContractIdleWiresInControlFlow::test_continue_loop"
+ ],
+ "status": "active",
+ "n_tests": 10
+}

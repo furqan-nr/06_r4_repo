@@ -1,0 +1,22 @@
+{
+ "id": "14586",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "ba74b5c47",
+ "test_files": [
+  "test/python/circuit/library/test_quantum_volume.py"
+ ],
+ "clean": {
+  "test.python.circuit.library.test_quantum_volume.TestQuantumVolumeLibrary::test_qv_function_seed_reproducibility": "pass",
+  "test.python.circuit.library.test_quantum_volume.TestQuantumVolumeLibrary::test_qv_seed_reproducibility_deprecated": "pass"
+ },
+ "fault": {
+  "test.python.circuit.library.test_quantum_volume.TestQuantumVolumeLibrary::test_qv_function_seed_reproducibility": "fail",
+  "test.python.circuit.library.test_quantum_volume.TestQuantumVolumeLibrary::test_qv_seed_reproducibility_deprecated": "pass"
+ },
+ "triggers": [
+  "test.python.circuit.library.test_quantum_volume.TestQuantumVolumeLibrary::test_qv_function_seed_reproducibility"
+ ],
+ "status": "active",
+ "n_tests": 2
+}

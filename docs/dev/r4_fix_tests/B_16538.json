@@ -1,0 +1,38 @@
+{
+ "id": "16538",
+ "pool": "B",
+ "base": "2.6.1",
+ "commit": "3f5f34377",
+ "test_files": [
+  "test/python/circuit/library/test_blueprintcircuit.py"
+ ],
+ "clean": {
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_build_before_appends": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_calling_attributes_works": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_compose_respects_inline_captures": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_compose_works": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_copy_empty_like": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_copy_empty_like_post_build": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_global_phase_copied": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_invalidate_rebuild": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_to_gate_and_instruction_1_gate": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_to_gate_and_instruction_2_instruction": "pass"
+ },
+ "fault": {
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_build_before_appends": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_calling_attributes_works": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_compose_respects_inline_captures": "fail",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_compose_works": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_copy_empty_like": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_copy_empty_like_post_build": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_global_phase_copied": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_invalidate_rebuild": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_to_gate_and_instruction_1_gate": "pass",
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_to_gate_and_instruction_2_instruction": "pass"
+ },
+ "triggers": [
+  "test.python.circuit.library.test_blueprintcircuit.TestBlueprintCircuit::test_compose_respects_inline_captures"
+ ],
+ "status": "active",
+ "n_tests": 10
+}

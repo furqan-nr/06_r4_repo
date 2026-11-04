@@ -1,0 +1,37 @@
+{
+ "base": "2.5.2",
+ "toolchain": "rustc 1.97.0 (2d8144b78 2026-07-07)",
+ "setuptools": "80.9.0",
+ "setuptools_rust": "1.13.0",
+ "python": "3.13.18",
+ "machine": "x86_64",
+ "clean_wheel": "qiskit-2.5.2-cp310-abi3-linux_x86_64.whl",
+ "clean_wheel_sha256": "0c105045e8b392ba414829f7bfe7331b9cbf12e7d2a7423d925a7d6edf7e90d9",
+ "make_faults_sha256": "005363635f597aaf7462d159f520c68cb4fd9d9aaa2cd189fac1cf022b814df7",
+ "import_check": {
+  "15816": {
+   "imports": true,
+   "error": "Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'\n"
+  },
+  "15967": {
+   "imports": true,
+   "error": "Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'\n"
+  },
+  "16163": {
+   "imports": true,
+   "error": "Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'\n"
+  },
+  "16175": {
+   "imports": true,
+   "error": "Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'\n"
+  },
+  "16362": {
+   "imports": true,
+   "error": "Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'\n"
+  },
+  "16592": {
+   "imports": true,
+   "error": "Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'\n"
+  }
+ }
+}

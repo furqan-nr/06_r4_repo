@@ -1,0 +1,54 @@
+{
+ "id": "13833",
+ "pool": "C24",
+ "base": "1.4.6",
+ "commit": "b93317983",
+ "test_files": [
+  "test/python/transpiler/test_sabre_layout.py"
+ ],
+ "clean": {
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_5q_circuit_20q_coupling": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_6q_circuit_20q_coupling": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_6q_circuit_20q_coupling_with_partial": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_6q_circuit_20q_coupling_with_target": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_layout_many_search_trials": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_layout_with_classical_bits": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_release_valve_routes_multiple": "skip",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_support_var_with_explicit_routing_pass": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_support_var_with_rust_fastpath": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dag_fits_in_one_component": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz_with_intermediate_barriers": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz_with_intermediate_spanning_barriers": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz_with_wide_barrier": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_too_large_components": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_with_partial_layout": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabrePreLayout::test_integration_with_pass_manager": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabrePreLayout::test_starting_layout": "pass"
+ },
+ "fault": {
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_5q_circuit_20q_coupling": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_6q_circuit_20q_coupling": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_6q_circuit_20q_coupling_with_partial": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_6q_circuit_20q_coupling_with_target": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_layout_many_search_trials": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_layout_with_classical_bits": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_release_valve_routes_multiple": "skip",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_support_var_with_explicit_routing_pass": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabreLayout::test_support_var_with_rust_fastpath": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dag_fits_in_one_component": "fail",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz_with_intermediate_barriers": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz_with_intermediate_spanning_barriers": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dual_ghz_with_wide_barrier": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_too_large_components": "pass",
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_with_partial_layout": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabrePreLayout::test_integration_with_pass_manager": "pass",
+  "test.python.transpiler.test_sabre_layout.TestSabrePreLayout::test_starting_layout": "pass"
+ },
+ "triggers": [
+  "test.python.transpiler.test_sabre_layout.TestDisjointDeviceSabreLayout::test_dag_fits_in_one_component"
+ ],
+ "status": "active",
+ "n_tests": 18
+}
