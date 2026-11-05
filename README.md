@@ -1,5 +1,7 @@
 # Revealing real Qiskit compiler faults: registrations R4 and R5
 
+**Archived release:** v1.0.0, Zenodo [10.5281/zenodo.23988421](https://doi.org/10.5281/zenodo.23988421). Cite this DOI for the R4 and R5 registrations, code, data and post hoc analyses.
+
 Status: **registration R4** (`PREREGISTRATION_R4.md`, frozen files listed in `PREREGISTRATION_R4.sha256`). No R4 session had run when it was pushed. The held-out faults were built, but none had compiled a corpus unit or been seen by any check.
 
 **Results** (2026-11-02): `RESULTS_R4.md`. The primary claim A4 is not supported (4 to 0 on pool F, p = 0.0625). Claims B4, E4 and F4 are supported. Deviations: `DEVIATIONS.md`. Post hoc analyses, which decide nothing: `RESULTS_R4.md` Part 2, `results/posthoc/`, `tools/analysis/`.
