@@ -44,3 +44,17 @@ The checks (output, quality, statevector probe, contract, determinism lane) and 
 | `builds/kaggle_build.py`, `builds/make_wheelhouse5.py`, `builds/split_deps.py`, `builds/records/build_*.json` | builds and their records |
 | `kaggle/nb_r5_session.ipynb` | the session notebook |
 | `docs/DESIGN_LOG_R5.md`, `docs/dev/` | design log and development evidence |
+
+## Errata and post hoc validation
+
+`ERRATA_R4_R5.md` corrects and qualifies statements in the R4 and R5 reports, after an independent review of the code and data. No registered decision changes. It also reports post hoc validation:
+
+| Path | What |
+|---|---|
+| `tools/analysis/validate_fix_tests.py` | runs each fault's own regression tests on the clean and fault builds |
+| `tools/analysis/posthoc_r5.py` | detection channels per fault, the failed-fingerprint sensitivity, validation joined to detections |
+| `tools/analysis/rerun_detecting_items.py` | reruns detecting items clean and fault, with the exception and Qiskit frame |
+| `tools/analysis/overlay_audit.py` | checks that no evaluated fix adds, deletes or renames a compilation file |
+| `tools/analysis/r4_strict_exposure.py` | R4 exposure with every clean-unstable item excluded |
+| `results/r5/posthoc/` | R5 outputs of the above |
+| `results/posthoc/fix_test_validation_r4.json`, `overlay_audit.json`, `m05_strict_exposure.json` | R4 outputs of the above |

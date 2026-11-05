@@ -1,0 +1,653 @@
+[
+ {
+  "base": "1.2.4",
+  "fault": "13186",
+  "suite": "S5",
+  "item": "PX|G20261202.23|ElidePermutations|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "21908a8c88e2c5a6ab3b26f518d4034616da779ef284cf2e60d8863e23bb2c86"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "03b8d959568ceae047e27c53d370bf6e745954f34faa742fd6b143f83a0565ea"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.2.4",
+  "fault": "13186",
+  "suite": "S5",
+  "item": "PX|G20261202.38|ElidePermutations|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "12913c27f2110a27a85e812beccb5ad46a9a11b81dbae0bd52fab203353511b3"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "ed0995ab256690a74520ec3810fd62e210d515a3b8ff96d30ee434133cb575d7"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.2.4",
+  "fault": "13186",
+  "suite": "S5",
+  "item": "PX|G20261202.64|ElidePermutations|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "aff92ed06ba77caf49901898e0e4f05c457f08e8c2a16690c6a695746ffc28a0"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "a7c23b54f0b53f302ac88b97597a50e749ef84b33d3794e41ce5a294b6a56699"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "suite": "S5",
+  "item": "RX|F0.000|F0.001",
+  "clean": {
+   "status": "ok",
+   "fp": "b60de24aac46d8a393654f4f23cab04d4e743cfc90fa6cb03dca63e5ef310e44"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "KeyError: Qubit(QuantumRegister(3, 'q'), 0)",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/layout/sabre_layout.py:350:run",
+    "qiskit/transpiler/layout.py:389:compose"
+   ],
+   "r5_frames": [
+    "items5.py:306:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "suite": "S5",
+  "item": "RX|F0.002|F0.003",
+  "clean": {
+   "status": "ok",
+   "fp": "c3273f21c37764483716646acc9a15e88c91c3f153108470204ae516c602c17e"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "KeyError: Qubit(QuantumRegister(15, 'ancilla'), 9)",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/layout/sabre_layout.py:350:run",
+    "qiskit/transpiler/layout.py:389:compose"
+   ],
+   "r5_frames": [
+    "items5.py:306:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "suite": "S5",
+  "item": "RX|F0.003|F0.004",
+  "clean": {
+   "status": "ok",
+   "fp": "0c66db1fcad9fb12145a7c0b911e0f69f8e766bf702ecd6d19615eaadf00ae6f"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "KeyError: Qubit(QuantumRegister(4, 'q'), 1)",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/optimization/elide_permutations.py:87:run",
+    "qiskit/transpiler/layout.py:413:inverse"
+   ],
+   "r5_frames": [
+    "items5.py:306:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "suite": "S1p",
+  "item": "RX|S1.0000|S1.0001",
+  "clean": {
+   "status": "ok",
+   "fp": "f84dc4fe376d38adea363b388970c095057572af466a92867476bbb5b8f145f2"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "KeyError: Qubit(QuantumRegister(4, 'q'), 0)",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/layout/sabre_layout.py:350:run",
+    "qiskit/transpiler/layout.py:389:compose"
+   ],
+   "r5_frames": [
+    "items5.py:306:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "suite": "S1p",
+  "item": "RX|S1.0001|S1.0002",
+  "clean": {
+   "status": "ok",
+   "fp": "f6684295f573c501d1f4918877784ef64ca763d2fbeaf74ba8fb4494efb9eb44"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "KeyError: Qubit(QuantumRegister(4, 'q'), 0)",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/layout/sabre_layout.py:350:run",
+    "qiskit/transpiler/layout.py:389:compose"
+   ],
+   "r5_frames": [
+    "items5.py:306:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "suite": "S1p",
+  "item": "RX|S1.0002|S1.0003",
+  "clean": {
+   "status": "ok",
+   "fp": "9f921300041449f2440d8cf4e186d3da578b47581ed4e5685a550cea355d25e3"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "dd6e3054c2aab424db3a71e4f006af8b8d134a8072929e2f29f432948f36a5fb"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "12752",
+  "suite": "S5",
+  "item": "PX|F0.008|CommutationAnalysis|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "638274d8f18ea4e4cff778ef6aaecb8d2e854e14d51e5552c1cc2140395232b8"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "TypeError: ParameterExpression with unbound parameters (dict_keys([Parameter(t2)])) cannot be cast to a float.",
+   "qiskit_frames": [
+    "qiskit/quantum_info/operators/operator.py:126:__init__",
+    "qiskit/quantum_info/operators/operator.py:778:_init_instruction",
+    "qiskit/circuit/library/standard_gates/ry.py:129:__array__",
+    "qiskit/circuit/parameterexpression.py:554:__float__"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "12752",
+  "suite": "S5",
+  "item": "PX|F0.008|TranslateParameterizedGates|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "638274d8f18ea4e4cff778ef6aaecb8d2e854e14d51e5552c1cc2140395232b8"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "AttributeError: 'AnnotatedOperation' object has no attribute 'params'",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/basis/translate_parameterized.py:131:run",
+    "qiskit/transpiler/passes/basis/translate_parameterized.py:154:_is_parameterized"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "12752",
+  "suite": "S5",
+  "item": "PX|F0.022|CommutationAnalysis|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "e892e65523c59edef13c785058bce8ab7da1c557a77c0c9850361474b539bba2"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "TypeError: ParameterExpression with unbound parameters (dict_keys([ParameterVectorElement(v[6])])) cannot be cast to a float.",
+   "qiskit_frames": [
+    "qiskit/quantum_info/operators/operator.py:126:__init__",
+    "qiskit/quantum_info/operators/operator.py:778:_init_instruction",
+    "qiskit/circuit/library/standard_gates/ry.py:129:__array__",
+    "qiskit/circuit/parameterexpression.py:554:__float__"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13591",
+  "suite": "S5",
+  "item": "PX|F0.006|ALAPScheduleAnalysis|low",
+  "clean": {
+   "status": "ok",
+   "fp": "46b7661b9d8d1d9c17fb58e2c3a2e14e8295ff9894a5ee053308299d56a4756e"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: the caller is responsible for only using interner keys from the correct interner",
+   "qiskit_frames": [
+    "qiskit/passmanager/base_tasks.py:218:execute",
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/synthesis/unitary_synthesis.py:491:run"
+   ],
+   "r5_frames": [
+    "items5.py:253:run_item",
+    "items5.py:200:lowered"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13591",
+  "suite": "S5",
+  "item": "PX|F0.006|ASAPScheduleAnalysis|low",
+  "clean": {
+   "status": "ok",
+   "fp": "46b7661b9d8d1d9c17fb58e2c3a2e14e8295ff9894a5ee053308299d56a4756e"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: the caller is responsible for only using interner keys from the correct interner",
+   "qiskit_frames": [
+    "qiskit/passmanager/base_tasks.py:218:execute",
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/synthesis/unitary_synthesis.py:491:run"
+   ],
+   "r5_frames": [
+    "items5.py:253:run_item",
+    "items5.py:200:lowered"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13591",
+  "suite": "S5",
+  "item": "PX|F0.006|AlignMeasures|low",
+  "clean": {
+   "status": "ok",
+   "fp": "46b7661b9d8d1d9c17fb58e2c3a2e14e8295ff9894a5ee053308299d56a4756e"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: the caller is responsible for only using interner keys from the correct interner",
+   "qiskit_frames": [
+    "qiskit/passmanager/base_tasks.py:218:execute",
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/synthesis/unitary_synthesis.py:491:run"
+   ],
+   "r5_frames": [
+    "items5.py:253:run_item",
+    "items5.py:200:lowered"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "suite": "S0",
+  "item": "TX|R3:random_clifford-n12-line-opt1|default",
+  "clean": {
+   "status": "ok",
+   "fp": "c7cd41834ed4b20e6ec5d06fc77416fe6af3cf6a507e1137d59a47b1d1c3bc4c"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "f0c9c373ea4b1b08b4a874369382cba390affb00eef6f8c29676c1c7be6a1a54"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "suite": "S0",
+  "item": "TX|R3:random_clifford-n12-line-opt3|default",
+  "clean": {
+   "status": "ok",
+   "fp": "acaecc4a7d19a946f78ef95448ffe411e17b21ac071cac26f1cde3e0439be624"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "a7a392d1b498c9e59e381f6d4a26bd8613d06bc9c0667642cdbde4efbbdf2014"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "suite": "S0",
+  "item": "TX|R3:random_clifford-n5-line-opt1|default",
+  "clean": {
+   "status": "ok",
+   "fp": "f75a801fa908812dc45957524fad5e9abb833273b60bc62279e4d1c7c2b2f6a8"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "cc252e182dd002dbdaab7299d6f363f0689f8643a098c996e1446d77f82305c8"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "suite": "S5",
+  "item": "HX|G20261202.47|clifford|greedy",
+  "clean": {
+   "status": "ok",
+   "fp": "7809dc0fe1df24e6fd54008103913507062406f109fcf9edd607d0a704bf3e03"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "11401825ece8275a74362273205570c9205d46e4fe7af1b3122bf11f81983ddd"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "suite": "S5",
+  "item": "HX|G20261203.49|clifford|ag",
+  "clean": {
+   "status": "ok",
+   "fp": "40d2d4a7e3674b27afbb1b8279272a41de0a85f87df7a9e2b73b8fa6b08cc281"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "6313a5c1dc278cb1ceb2f73e452fadeef47bced280d0f6704c6530e51dc86fdf"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "suite": "S5",
+  "item": "HX|G20261203.58|clifford|ag",
+  "clean": {
+   "status": "ok",
+   "fp": "15c8ef7772a082993cc2957e4eda29f4df36073babf8e8b52606fa6ab3a67891"
+  },
+  "fault_run": {
+   "status": "ok",
+   "fp": "41ed79e3591dd1eedc20f6c7c97d77677b45418117f3fda017f6157267e3195e"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "suite": "S5",
+  "item": "PX|F0.006|CommutationAnalysis|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "3b53095c6380ae5dc4d70bad2768730138d8cf01a6004df05f4ddd9befe1b48f"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: index out of bounds: the len is 0 but the index is 0",
+   "qiskit_frames": [
+    "qiskit/passmanager/passmanager.py:310:_run_workflow",
+    "qiskit/passmanager/base_tasks.py:218:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/optimization/commutation_analysis.py:44:run"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "suite": "S5",
+  "item": "PX|F0.006|CommutativeInverseCancellation|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "3b53095c6380ae5dc4d70bad2768730138d8cf01a6004df05f4ddd9befe1b48f"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: index out of bounds: the len is 0 but the index is 0",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/optimization/commutative_inverse_cancellation.py:122:run",
+    "qiskit/circuit/commutation_checker.py:45:commute_nodes"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "suite": "S5",
+  "item": "PX|F0.006|TemplateOptimization|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "766f84db59556050965186040806139c774841f0a88c1bea2a25ee4a0f6e6595"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: index out of bounds: the len is 0 but the index is 0",
+   "qiskit_frames": [
+    "qiskit/converters/dag_to_dagdependency.py:45:dag_to_dagdependency",
+    "qiskit/dagcircuit/dagdependency.py:448:add_op_node",
+    "qiskit/dagcircuit/dagdependency.py:476:_update_edges",
+    "qiskit/circuit/commutation_checker.py:76:commute"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "suite": "S1p",
+  "item": "PX|S1.0003|CommutationAnalysis|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "d3898e761036253c8317e90c90bb272dbde0caca29e06f60bb0b115bfdb206cb"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: index out of bounds: the len is 0 but the index is 0",
+   "qiskit_frames": [
+    "qiskit/passmanager/passmanager.py:310:_run_workflow",
+    "qiskit/passmanager/base_tasks.py:218:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/optimization/commutation_analysis.py:44:run"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "suite": "S1p",
+  "item": "PX|S1.0003|CommutativeInverseCancellation|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "d3898e761036253c8317e90c90bb272dbde0caca29e06f60bb0b115bfdb206cb"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: index out of bounds: the len is 0 but the index is 0",
+   "qiskit_frames": [
+    "qiskit/transpiler/basepasses.py:195:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/optimization/commutative_inverse_cancellation.py:122:run",
+    "qiskit/circuit/commutation_checker.py:45:commute_nodes"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "suite": "S1p",
+  "item": "PX|S1.0003|TemplateOptimization|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "f963a5531b73ef1b7def2241b5c336a4d76c5f9577c91e3878471f06fd9f705a"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "PanicException: index out of bounds: the len is 0 but the index is 0",
+   "qiskit_frames": [
+    "qiskit/converters/dag_to_dagdependency.py:45:dag_to_dagdependency",
+    "qiskit/dagcircuit/dagdependency.py:448:add_op_node",
+    "qiskit/dagcircuit/dagdependency.py:476:_update_edges",
+    "qiskit/circuit/commutation_checker.py:76:commute"
+   ],
+   "r5_frames": [
+    "items5.py:255:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15147",
+  "suite": "S5",
+  "item": "TX|F1.045|target_durations_alap",
+  "clean": {
+   "status": "ok",
+   "fp": "5cae8366355b1cb48bf6b4582ab33278db2f045cfced351242968f5b4eff3bad"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "TranspilerError: 'No durations provided'",
+   "qiskit_frames": [
+    "qiskit/passmanager/passmanager.py:311:_run_workflow",
+    "qiskit/passmanager/base_tasks.py:218:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/scheduling/scheduling/alap.py:48:run"
+   ],
+   "r5_frames": [
+    "items5.py:296:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15147",
+  "suite": "S5",
+  "item": "TX|F1.045|target_durations_asap",
+  "clean": {
+   "status": "ok",
+   "fp": "5cae8366355b1cb48bf6b4582ab33278db2f045cfced351242968f5b4eff3bad"
+  },
+  "fault_run": {
+   "status": "crash",
+   "exc": "TranspilerError: 'No durations provided'",
+   "qiskit_frames": [
+    "qiskit/passmanager/passmanager.py:311:_run_workflow",
+    "qiskit/passmanager/base_tasks.py:218:execute",
+    "qiskit/passmanager/base_tasks.py:98:execute",
+    "qiskit/transpiler/passes/scheduling/scheduling/asap.py:47:run"
+   ],
+   "r5_frames": [
+    "items5.py:296:run_item"
+   ]
+  },
+  "reproduced": true
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16592",
+  "suite": "S1p",
+  "item": "PX|S1.0005|Optimize1qGatesDecomposition|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "e4bf49a7330c8bf83ceb53abd403cda67a92257ca1005fcb45ec6a5e78237975"
+  },
+  "fault_run": {
+   "status": "hang"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16592",
+  "suite": "S1p",
+  "item": "PX|S1.0007|Optimize1qGatesDecomposition|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "4da280cfb541d54370ff906937f19f3fa7df474c4fb76d436664358a844d5a03"
+  },
+  "fault_run": {
+   "status": "hang"
+  },
+  "reproduced": true
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16592",
+  "suite": "S1p",
+  "item": "PX|S1.0018|Optimize1qGatesDecomposition|raw",
+  "clean": {
+   "status": "ok",
+   "fp": "e09078ee560599b9e48cdbfcd2fd0815f4b81d42c03bbbb244af93b4cc1d57ef"
+  },
+  "fault_run": {
+   "status": "hang"
+  },
+  "reproduced": true
+ }
+]

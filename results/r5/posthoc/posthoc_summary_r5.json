@@ -1,0 +1,136 @@
+{
+ "sentinel_items_in_suite": {
+  "1.1.2": {
+   "S0": 0,
+   "S5": 3338,
+   "S1p": 306
+  },
+  "1.2.4": {
+   "S0": 0,
+   "S5": 2399,
+   "S1p": 306
+  },
+  "1.3.3": {
+   "S0": 0,
+   "S5": 2238,
+   "S1p": 360
+  },
+  "1.4.6": {
+   "S0": 0,
+   "S5": 2238,
+   "S1p": 362
+  },
+  "2.0.3": {
+   "S0": 0,
+   "S5": 2179,
+   "S1p": 382
+  },
+  "2.1.2": {
+   "S0": 0,
+   "S5": 2271,
+   "S1p": 720
+  },
+  "2.2.3": {
+   "S0": 0,
+   "S5": 2401,
+   "S1p": 720
+  },
+  "2.4.2": {
+   "S0": 0,
+   "S5": 2523,
+   "S1p": 534
+  },
+  "2.5.2": {
+   "S0": 0,
+   "S5": 2558,
+   "S1p": 508
+  }
+ },
+ "det:S5_vs_S0": {
+  "S5": 7,
+  "other": 1,
+  "a_only": 6,
+  "b_only": 0,
+  "discordant": 6,
+  "p": 0.015625,
+  "decisive": true
+ },
+ "det:S5_vs_S1p": {
+  "S5": 7,
+  "other": 3,
+  "a_only": 5,
+  "b_only": 1,
+  "discordant": 6,
+  "p": 0.109375,
+  "decisive": true
+ },
+ "exp:S5_vs_S0": {
+  "S5": 10,
+  "other": 1,
+  "a_only": 9,
+  "b_only": 0,
+  "discordant": 9,
+  "p": 0.001953125,
+  "decisive": true
+ },
+ "exp:S5_vs_S1p": {
+  "S5": 10,
+  "other": 5,
+  "a_only": 6,
+  "b_only": 1,
+  "discordant": 7,
+  "p": 0.0625,
+  "decisive": true
+ },
+ "no_sentinel:det:S5_vs_S0": {
+  "S5": 7,
+  "other": 1,
+  "a_only": 6,
+  "b_only": 0,
+  "discordant": 6,
+  "p": 0.015625,
+  "decisive": true
+ },
+ "no_sentinel:det:S5_vs_S1p": {
+  "S5": 7,
+  "other": 3,
+  "a_only": 5,
+  "b_only": 1,
+  "discordant": 6,
+  "p": 0.109375,
+  "decisive": true
+ },
+ "no_sentinel:exp:S5_vs_S0": {
+  "S5": 10,
+  "other": 1,
+  "a_only": 9,
+  "b_only": 0,
+  "discordant": 9,
+  "p": 0.001953125,
+  "decisive": true
+ },
+ "no_sentinel:exp:S5_vs_S1p": {
+  "S5": 10,
+  "other": 5,
+  "a_only": 6,
+  "b_only": 1,
+  "discordant": 7,
+  "p": 0.0625,
+  "decisive": true
+ },
+ "validation_counts": {
+  "active": 43,
+  "no test files in fix": 4,
+  "no trigger": 4,
+  "timeout": 1
+ },
+ "on_active_faults": {
+  "det:S0": 1,
+  "det:S5": 7,
+  "det:S1p": 2,
+  "exp:S0": 1,
+  "exp:S5": 9,
+  "exp:S1p": 4,
+  "n": 43
+ }
+}

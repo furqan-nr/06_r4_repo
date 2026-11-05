@@ -83,3 +83,42 @@ Preset compilation alone (`TX default`, the R4 and R3 style of item) detects 3 o
   - It does not show that the R5 input model beats random circuits given the same items (B5, D5).
   - Random circuits with R5's item catalogue detected 3 faults. One of them (#16592) the R5 suite missed.
   - Much of the gain over the R3 corpus comes from the item families (passes, options, pass-manager reuse), which S1' shares.
+
+
+## Part 2. Post hoc analyses (not registered)
+
+These analyses were done after the registered result was final. They decide nothing. Scripts: `tools/analysis/`. Outputs: `results/r5/posthoc/`. Corrections to earlier statements: `ERRATA_R4_R5.md`.
+
+### Q1. Are the faults active?
+
+Each fault's own regression tests (the test files its fix changed, taken at the fix commit) ran on clean Qiskit and on the fault build (`fix_test_validation.json`).
+
+| Status | Faults |
+|---|---|
+| Active: a fix test passes on clean and fails on the fault | 43 |
+| No trigger | 4 (#13114, #13655, #15436, #15782) |
+| The fix changed no test file | 4 (#12410, #13337, #13439, #15967) |
+| The fix test hung on the fault for 30 minutes, passed on clean | 1 (#16592) |
+
+- **S5's detections:** all seven are active faults.
+- **Rates on the active faults:** on the 43 active faults, S5 detects 7 and exposes 9, S0 detects 1, and S1' detects 2.
+
+### Q2. What raised each detection
+
+**Alarm channels.** `per_fault_channels.json` gives, per detected fault and suite, the number of items that crashed, hung, or raised the output or quality check, and the item families involved.
+
+**Reruns of detecting items.** `item_reruns.json` reruns up to three detecting items per fault in fresh interpreters, clean and fault, with the exception and innermost Qiskit frame.
+
+**Crashes.** Three of S5's seven detections rest on crashes alone (#13591, #13762, #15147). Only #13186, #13606 and #11787 raise the output check.
+
+### Q3. Sensitivity to failed fingerprints
+
+**The problem.** Items whose clean fingerprint is an `unfingerprintable:` label (errata E1) compare equal whenever the fingerprint fails again.
+
+**The check.** We removed every such item from every suite (`posthoc_summary_r5.json`).
+
+**The result.** Every count and every sign test is unchanged: S5 7 detected and 10 exposed, S0 1 and 1, S1' 3 and 5.
+
+### Q4. Concentration on one base
+
+Five of S5's seven detections are on 1.4.6. Without that base, S5 against S0 is 2:0 (p = 0.25).

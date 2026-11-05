@@ -1,0 +1,2281 @@
+[
+ {
+  "base": "1.1.2",
+  "fault": "11834",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.1.2",
+  "fault": "12410",
+  "validation": "no test files in fix",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.1.2",
+  "fault": "12429",
+  "validation": "active",
+  "fix_triggers": 3,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.2.4",
+  "fault": "11321",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.2.4",
+  "fault": "11940",
+  "validation": "active",
+  "fix_triggers": 3,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.2.4",
+  "fault": "12637",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.2.4",
+  "fault": "12742",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.2.4",
+  "fault": "12774",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.2.4",
+  "fault": "13014",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.2.4",
+  "fault": "13186",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": true,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 3,
+   "quality": 1
+  },
+  "families:S5": [
+   "PX_raw"
+  ],
+  "example_items:S5": [
+   "PX|G20261202.23|ElidePermutations|raw",
+   "PX|G20261202.38|ElidePermutations|raw",
+   "PX|G20261202.64|ElidePermutations|raw",
+   "PX|G20261203.13|ElidePermutations|raw"
+  ],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": true,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.3.3",
+  "fault": "11097",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.3.3",
+  "fault": "11782",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.3.3",
+  "fault": "13337",
+  "validation": "no test files in fix",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": true,
+  "channels:S5": {
+   "crash": 63,
+   "hang": 0,
+   "output": 21,
+   "quality": 11
+  },
+  "families:S5": [
+   "RX"
+  ],
+  "example_items:S5": [
+   "RX|F0.000|F0.001",
+   "RX|F0.002|F0.003",
+   "RX|F0.003|F0.004",
+   "RX|F0.005|F0.006",
+   "RX|F0.009|F0.011"
+  ],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": true,
+  "exp:S1p": true,
+  "det:S1p": true,
+  "channels:S1p": {
+   "crash": 49,
+   "hang": 0,
+   "output": 100,
+   "quality": 8
+  },
+  "families:S1p": [
+   "RX"
+  ],
+  "example_items:S1p": [
+   "RX|S1.0000|S1.0001",
+   "RX|S1.0001|S1.0002",
+   "RX|S1.0002|S1.0003",
+   "RX|S1.0004|S1.0005",
+   "RX|S1.0005|S1.0006"
+  ],
+  "no_sentinel:exp:S1p": true,
+  "no_sentinel:det:S1p": true
+ },
+ {
+  "base": "1.4.6",
+  "fault": "12752",
+  "validation": "active",
+  "fix_triggers": 14,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": true,
+  "channels:S5": {
+   "crash": 15,
+   "hang": 0,
+   "output": 0,
+   "quality": 70
+  },
+  "families:S5": [
+   "PX_raw",
+   "RX",
+   "TX_default",
+   "TX_variants"
+  ],
+  "example_items:S5": [
+   "PX|F0.008|CommutationAnalysis|raw",
+   "PX|F0.008|TranslateParameterizedGates|raw",
+   "PX|F0.022|CommutationAnalysis|raw",
+   "PX|F0.029|CommutationAnalysis|raw",
+   "PX|F0.038|CommutationAnalysis|raw"
+  ],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": true,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13114",
+  "validation": "no trigger",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13439",
+  "validation": "no test files in fix",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13591",
+  "validation": "active",
+  "fix_triggers": 3,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": true,
+  "channels:S5": {
+   "crash": 482,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [
+   "PX_low",
+   "RX",
+   "TX_default",
+   "TX_variants"
+  ],
+  "example_items:S5": [
+   "PX|F0.006|ALAPScheduleAnalysis|low",
+   "PX|F0.006|ASAPScheduleAnalysis|low",
+   "PX|F0.006|AlignMeasures|low",
+   "PX|F0.006|BasicSwap|low",
+   "PX|F0.006|CSPLayout|low"
+  ],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": true,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "validation": "active",
+  "fix_triggers": 3,
+  "exp:S0": true,
+  "det:S0": true,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 6,
+   "quality": 2
+  },
+  "families:S0": [
+   "TX_default"
+  ],
+  "example_items:S0": [
+   "TX|R3:random_clifford-n12-line-opt1|default",
+   "TX|R3:random_clifford-n12-line-opt3|default",
+   "TX|R3:random_clifford-n5-line-opt1|default",
+   "TX|R3:random_clifford-n5-line-opt3|default",
+   "TX|R3:random_clifford-n8-heavy_hex-opt3|default"
+  ],
+  "no_sentinel:exp:S0": true,
+  "no_sentinel:det:S0": true,
+  "exp:S5": true,
+  "det:S5": true,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 33,
+   "quality": 8
+  },
+  "families:S5": [
+   "HX",
+   "PX_low",
+   "PX_raw",
+   "RX",
+   "TX_default",
+   "TX_variants"
+  ],
+  "example_items:S5": [
+   "HX|G20261202.47|clifford|greedy",
+   "HX|G20261203.49|clifford|ag",
+   "HX|G20261203.58|clifford|ag",
+   "HX|G20261203.58|clifford|bm",
+   "HX|G20261203.58|clifford|default"
+  ],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": true,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13634",
+  "validation": "active",
+  "fix_triggers": 3,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13651",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13655",
+  "validation": "no trigger",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13670",
+  "validation": "active",
+  "fix_triggers": 3,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": true,
+  "channels:S5": {
+   "crash": 101,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [
+   "PX_raw"
+  ],
+  "example_items:S5": [
+   "PX|F0.006|CommutationAnalysis|raw",
+   "PX|F0.006|CommutativeInverseCancellation|raw",
+   "PX|F0.006|TemplateOptimization|raw",
+   "PX|F0.018|CommutationAnalysis|raw",
+   "PX|F0.018|CommutativeInverseCancellation|raw"
+  ],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": true,
+  "exp:S1p": true,
+  "det:S1p": true,
+  "channels:S1p": {
+   "crash": 134,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [
+   "PX_raw"
+  ],
+  "example_items:S1p": [
+   "PX|S1.0003|CommutationAnalysis|raw",
+   "PX|S1.0003|CommutativeInverseCancellation|raw",
+   "PX|S1.0003|TemplateOptimization|raw",
+   "PX|S1.0010|CommutationAnalysis|raw",
+   "PX|S1.0010|CommutativeInverseCancellation|raw"
+  ],
+  "no_sentinel:exp:S1p": true,
+  "no_sentinel:det:S1p": true
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14065",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14174",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14217",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": true,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": true,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14304",
+  "validation": "active",
+  "fix_triggers": 3,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14186",
+  "validation": "active",
+  "fix_triggers": 16,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14330",
+  "validation": "active",
+  "fix_triggers": 8,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14363",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14488",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14597",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14606",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14765",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14349",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14716",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14728",
+  "validation": "active",
+  "fix_triggers": 116,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14938",
+  "validation": "active",
+  "fix_triggers": 6,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15074",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15143",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15147",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": true,
+  "channels:S5": {
+   "crash": 2,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [
+   "TX_variants"
+  ],
+  "example_items:S5": [
+   "TX|F1.045|target_durations_alap",
+   "TX|F1.045|target_durations_asap"
+  ],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": true,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.4.2",
+  "fault": "15436",
+  "validation": "no trigger",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.4.2",
+  "fault": "15782",
+  "validation": "no trigger",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.4.2",
+  "fault": "15875",
+  "validation": "active",
+  "fix_triggers": 2,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.4.2",
+  "fault": "16054",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.5.2",
+  "fault": "15816",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.5.2",
+  "fault": "15967",
+  "validation": "no test files in fix",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16163",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16175",
+  "validation": "active",
+  "fix_triggers": 1,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": false,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": false,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16362",
+  "validation": "active",
+  "fix_triggers": 4,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": true,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": true,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": true,
+  "det:S1p": false,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [],
+  "example_items:S1p": [],
+  "no_sentinel:exp:S1p": true,
+  "no_sentinel:det:S1p": false
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16592",
+  "validation": "timeout",
+  "fix_triggers": 0,
+  "exp:S0": false,
+  "det:S0": false,
+  "channels:S0": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S0": [],
+  "example_items:S0": [],
+  "no_sentinel:exp:S0": false,
+  "no_sentinel:det:S0": false,
+  "exp:S5": false,
+  "det:S5": false,
+  "channels:S5": {
+   "crash": 0,
+   "hang": 0,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S5": [],
+  "example_items:S5": [],
+  "no_sentinel:exp:S5": false,
+  "no_sentinel:det:S5": false,
+  "exp:S1p": true,
+  "det:S1p": true,
+  "channels:S1p": {
+   "crash": 0,
+   "hang": 120,
+   "output": 0,
+   "quality": 0
+  },
+  "families:S1p": [
+   "PX_raw"
+  ],
+  "example_items:S1p": [
+   "PX|S1.0005|Optimize1qGatesDecomposition|raw",
+   "PX|S1.0007|Optimize1qGatesDecomposition|raw",
+   "PX|S1.0018|Optimize1qGatesDecomposition|raw",
+   "PX|S1.0019|Optimize1qGatesDecomposition|raw",
+   "PX|S1.0020|Optimize1qGatesDecomposition|raw"
+  ],
+  "no_sentinel:exp:S1p": true,
+  "no_sentinel:det:S1p": true
+ }
+]

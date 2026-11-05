@@ -1,0 +1,112 @@
+[
+ {
+  "base": "1.4.6",
+  "pool": "C24",
+  "fault": "13067",
+  "commit": "8f3308475",
+  "status": "active",
+  "test_files": [
+   "test/python/circuit/test_rust_equivalence.py"
+  ],
+  "tests_run": 8,
+  "triggering": [
+   "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_extracted_as_standard_gate"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "pool": "C24",
+  "fault": "13121",
+  "commit": "8929e12ba",
+  "status": "active",
+  "test_files": [
+   "test/python/circuit/test_rust_equivalence.py"
+  ],
+  "tests_run": 8,
+  "triggering": [
+   "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_matrix"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "pool": "C24",
+  "fault": "13538",
+  "commit": "6f0a176e3",
+  "status": "active",
+  "test_files": [
+   "test/python/circuit/test_parameters.py",
+   "test/python/circuit/test_twirling.py"
+  ],
+  "tests_run": 211,
+  "triggering": [
+   "test.python.circuit.test_parameters.TestParameters::test_decompose_with_global_phase",
+   "test.python.circuit.test_parameters.TestParameters::test_global_phase_to_dag_and_back",
+   "test.python.circuit.test_twirling.TestTwirling::test_with_global_phase"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "pool": "C24",
+  "fault": "13545",
+  "commit": "4495c672f",
+  "status": "active",
+  "test_files": [
+   "test/python/transpiler/test_decompose.py"
+  ],
+  "tests_run": 25,
+  "triggering": [
+   "test.python.transpiler.test_decompose.TestDecompose::test_cif_no_definition",
+   "test.python.transpiler.test_decompose.TestDecompose::test_control_flow_for",
+   "test.python.transpiler.test_decompose.TestDecompose::test_control_flow_if"
+  ]
+ },
+ {
+  "base": "2.3.1",
+  "pool": "A231",
+  "fault": "14934",
+  "commit": "951147794",
+  "status": "active",
+  "test_files": [
+   "test/python/circuit/library/test_evolution_gate.py",
+   "test/python/transpiler/test_high_level_synthesis.py"
+  ],
+  "tests_run": 234,
+  "triggering": [
+   "test.python.circuit.library.test_evolution_gate.TestEvolutionGate::test_inverse_to_matrix",
+   "test.python.circuit.library.test_evolution_gate.TestEvolutionGate::test_matrix_decomposition",
+   "test.python.circuit.library.test_evolution_gate.TestEvolutionGate::test_to_matrix_commuting_blocks",
+   "test.python.circuit.library.test_evolution_gate.TestEvolutionGate::test_to_matrix_invalid_time"
+  ]
+ },
+ {
+  "base": "2.3.1",
+  "pool": "A231",
+  "fault": "15642",
+  "commit": "245bc460a",
+  "status": "active",
+  "test_files": [
+   "test/python/circuit/test_parameter_expression.py"
+  ],
+  "tests_run": 21107,
+  "triggering": [
+   "test.python.circuit.test_parameter_expression.TestParameterExpression::test_sympify_reverse_operations",
+   "test.python.circuit.test_parameter_expression.TestParameterExpression::test_sympify_rpow_operand_order"
+  ]
+ },
+ {
+  "base": "2.6.1",
+  "pool": "B",
+  "fault": "16834",
+  "commit": "5f0a8617e",
+  "status": "active",
+  "test_files": [
+   "test/python/synthesis/test_synthesis.py"
+  ],
+  "tests_run": 3089,
+  "triggering": [
+   "test.python.synthesis.test_synthesis.TestOneQubitEulerSpecial::test_special_U",
+   "test.python.synthesis.test_synthesis.TestOneQubitEulerSpecial::test_special_U3",
+   "test.python.synthesis.test_synthesis.TestTwoQubitDecompose::test_cx_decomposition_no_identity_one_qubit_gates"
+  ]
+ }
+]

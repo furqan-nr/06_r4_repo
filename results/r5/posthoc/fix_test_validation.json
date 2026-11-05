@@ -1,0 +1,632 @@
+[
+ {
+  "base": "1.1.2",
+  "fault": "11834",
+  "status": "active",
+  "tests_run": 30,
+  "triggering": [
+   "test.python.transpiler.test_inverse_cancellation.TestInverseCancellation::test_parameterized_self_inverse_not_equal_parameter_2"
+  ]
+ },
+ {
+  "base": "1.1.2",
+  "fault": "12410",
+  "status": "no test files in fix",
+  "tests_run": 0,
+  "triggering": []
+ },
+ {
+  "base": "1.1.2",
+  "fault": "12429",
+  "status": "active",
+  "tests_run": 65,
+  "triggering": [
+   "test.python.circuit.test_circuit_properties.TestCircuitProperties::test_circuit_depth_0_operands",
+   "test.python.circuit.test_circuit_properties.TestCircuitProperties::test_circuit_depth_expr_condition",
+   "test.python.circuit.test_circuit_properties.TestCircuitProperties::test_circuit_depth_expr_store"
+  ]
+ },
+ {
+  "base": "1.2.4",
+  "fault": "11321",
+  "status": "active",
+  "tests_run": 23,
+  "triggering": [
+   "test.python.circuit.library.test_evolution_gate.TestEvolutionGate::test_qdrift_evolution"
+  ]
+ },
+ {
+  "base": "1.2.4",
+  "fault": "11940",
+  "status": "active",
+  "tests_run": 17,
+  "triggering": [
+   "test.python.circuit.test_instruction_repeat.TestRepeatInt1Q::test_conditional",
+   "test.python.circuit.test_instruction_repeat.TestRepeatInt2Q::test_conditional",
+   "test.python.circuit.test_instruction_repeat.TestRepeatIntMeasure::test_measure_conditional"
+  ]
+ },
+ {
+  "base": "1.2.4",
+  "fault": "12637",
+  "status": "active",
+  "tests_run": 164,
+  "triggering": [
+   "test.python.dagcircuit.test_dagcircuit.TestReplaceBlock::test_invalid_replacement_size"
+  ]
+ },
+ {
+  "base": "1.2.4",
+  "fault": "12742",
+  "status": "active",
+  "tests_run": 843,
+  "triggering": [
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_special_cases_equivalent_to_controlled_base_gate",
+   "test.python.circuit.test_rust_equivalence.TestRustGateEquivalence::test_matrix"
+  ]
+ },
+ {
+  "base": "1.2.4",
+  "fault": "12774",
+  "status": "active",
+  "tests_run": 110,
+  "triggering": [
+   "test.python.qasm2.test_structure.TestGateApplication::test_huge_conditions"
+  ]
+ },
+ {
+  "base": "1.2.4",
+  "fault": "13014",
+  "status": "active",
+  "tests_run": 2606,
+  "triggering": [
+   "test.python.synthesis.test_synthesis.TestTwoQubitDecompose::test_non_std_gate"
+  ]
+ },
+ {
+  "base": "1.2.4",
+  "fault": "13186",
+  "status": "active",
+  "tests_run": 19,
+  "triggering": [
+   "test.python.transpiler.test_elide_permutations.TestElidePermutations::test_partial_permutation_in_middle"
+  ]
+ },
+ {
+  "base": "1.3.3",
+  "fault": "11097",
+  "status": "active",
+  "tests_run": 28,
+  "triggering": [
+   "test.python.circuit.test_scheduled_circuit.TestScheduledCircuit::test_per_qubit_durations_loose_constrain"
+  ]
+ },
+ {
+  "base": "1.3.3",
+  "fault": "11782",
+  "status": "active",
+  "tests_run": 30,
+  "triggering": [
+   "test.python.circuit.test_scheduled_circuit.TestScheduledCircuit::test_convert_duration_to_dt"
+  ]
+ },
+ {
+  "base": "1.3.3",
+  "fault": "13337",
+  "status": "no test files in fix",
+  "tests_run": 0,
+  "triggering": []
+ },
+ {
+  "base": "1.4.6",
+  "fault": "11787",
+  "status": "active",
+  "tests_run": 6,
+  "triggering": [
+   "test.python.passmanager.test_passmanager.TestPassManager::test_reruns_have_clean_property_set"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "fault": "12752",
+  "status": "active",
+  "tests_run": 868,
+  "triggering": [
+   "test.python.circuit.test_annotated_operation.TestAnnotatedOperationClass::test_binding_annotated_gate",
+   "test.python.circuit.test_annotated_operation.TestAnnotatedOperationClass::test_invalid_params_access",
+   "test.python.circuit.test_annotated_operation.TestAnnotatedOperationClass::test_params_access",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_01_RXGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_02_RYGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_03_RZGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_04_RXXGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_05_RYYGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_06_RZXGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_07_RZZGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_08_UGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_09_U3Gate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_10_XXMinusYYGate",
+   "test.python.circuit.test_controlled_gate.TestControlledGate::test_mc_failure_without_annotation_11_XXPlusYYGate"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13114",
+  "status": "no trigger",
+  "tests_run": 17,
+  "triggering": []
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13439",
+  "status": "no test files in fix",
+  "tests_run": 0,
+  "triggering": []
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13591",
+  "status": "active",
+  "tests_run": 71,
+  "triggering": [
+   "test.python.transpiler.test_unitary_synthesis.TestUnitarySynthesis::test_3q_measure_all",
+   "test.python.transpiler.test_unitary_synthesis.TestUnitarySynthesis::test_3q_series",
+   "test.python.transpiler.test_unitary_synthesis.TestUnitarySynthesis::test_3q_with_measure"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13606",
+  "status": "active",
+  "tests_run": 278,
+  "triggering": [
+   "test.python.quantum_info.operators.test_random.TestRandomClifford::test_clifford_2q_decompositions",
+   "test.python.quantum_info.operators.test_random.TestRandomClifford::test_clifford_3q_decompositions",
+   "test.python.quantum_info.operators.test_random.TestRandomClifford::test_cliffords_2q"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13634",
+  "status": "active",
+  "tests_run": 52,
+  "triggering": [
+   "test.python.circuit.library.test_evolution_gate.TestEvolutionGate::test_all_identity",
+   "test.python.circuit.library.test_evolution_gate.TestEvolutionGate::test_global_phase",
+   "test.python.circuit.library.test_evolved_op_ansatz.TestHamiltonianVariationalAnsatz::test_evolution_with_identity"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13651",
+  "status": "active",
+  "tests_run": 72,
+  "triggering": [
+   "test.python.transpiler.test_unitary_synthesis.TestUnitarySynthesisTarget::test_target_with_global_gates"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13655",
+  "status": "no trigger",
+  "tests_run": 84,
+  "triggering": []
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13670",
+  "status": "active",
+  "tests_run": 51,
+  "triggering": [
+   "test.python.circuit.test_commutation_checker.TestCommutationChecker::test_controlled_rotation_mod_4pi_09_CRXGate",
+   "test.python.circuit.test_commutation_checker.TestCommutationChecker::test_controlled_rotation_mod_4pi_10_CRYGate",
+   "test.python.circuit.test_commutation_checker.TestCommutationChecker::test_controlled_rotation_mod_4pi_11_CRZGate"
+  ]
+ },
+ {
+  "base": "1.4.6",
+  "fault": "13762",
+  "status": "active",
+  "tests_run": 136,
+  "triggering": [
+   "test.python.circuit.test_commutation_checker.TestCommutationChecker::test_2q_pauli_rot_with_non_cached",
+   "test.python.transpiler.test_commutative_inverse_cancellation.TestCommutativeInverseCancellation::test_2q_pauli_rot_with_non_cached"
+  ]
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14065",
+  "status": "active",
+  "tests_run": 368,
+  "triggering": [
+   "test.python.compiler.test_transpiler.TestTranspile::test_custom_dt_preserves_properties"
+  ]
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14174",
+  "status": "active",
+  "tests_run": 15,
+  "triggering": [
+   "test.python.circuit.test_delay.TestDelayClass::test_delay_clone"
+  ]
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14217",
+  "status": "active",
+  "tests_run": 39,
+  "triggering": [
+   "test.python.transpiler.test_solovay_kitaev.TestSolovayKitaev::test_str_basis_gates",
+   "test.python.transpiler.test_solovay_kitaev.TestSolovayKitaev::test_y_gate"
+  ]
+ },
+ {
+  "base": "2.0.3",
+  "fault": "14304",
+  "status": "active",
+  "tests_run": 40,
+  "triggering": [
+   "test.python.transpiler.test_solovay_kitaev.TestSolovayKitaev::test_multiple_plugins",
+   "test.python.transpiler.test_solovay_kitaev.TestSolovayKitaev::test_plugin",
+   "test.python.transpiler.test_solovay_kitaev.TestSolovayKitaev::test_unitary_synthesis"
+  ]
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14186",
+  "status": "active",
+  "tests_run": 241,
+  "triggering": [
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_09",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_10",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_11",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_12",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_21",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_22",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_23",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_24",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_33",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_34",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_35",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_36",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_45",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_46",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_47",
+   "test.python.transpiler.test_preset_passmanagers.TestGeneratePresetPassManagers::test_preserves_circuit_metadata_48"
+  ]
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14330",
+  "status": "active",
+  "tests_run": 376,
+  "triggering": [
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_1",
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_2",
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_3",
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_4",
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_5",
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_6",
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_7",
+   "test.python.compiler.test_transpiler.TestTranspile::test_stretch_integration_with_alignment_8"
+  ]
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14363",
+  "status": "active",
+  "tests_run": 6,
+  "triggering": [
+   "test.python.circuit.library.test_iqp.TestIQPLibrary::test_iqp_1_True",
+   "test.python.circuit.library.test_iqp.TestIQPLibrary::test_iqp_2_False"
+  ]
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14488",
+  "status": "active",
+  "tests_run": 139,
+  "triggering": [
+   "test.python.transpiler.test_sabre_swap.TestSabreSwapControlFlow::test_nested_vars"
+  ]
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14597",
+  "status": "active",
+  "tests_run": 162,
+  "triggering": [
+   "test.python.transpiler.test_high_level_synthesis.TestUnrollerCompatability::test_unroll_with_clbit_mapping"
+  ]
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14606",
+  "status": "active",
+  "tests_run": 8,
+  "triggering": [
+   "test.python.transpiler.test_apply_layout.TestApplyLayout::test_empty_layout",
+   "test.python.transpiler.test_apply_layout.TestApplyLayout::test_empty_post_layout"
+  ]
+ },
+ {
+  "base": "2.1.2",
+  "fault": "14765",
+  "status": "active",
+  "tests_run": 69,
+  "triggering": [
+   "test.python.transpiler.test_target.TestTarget::test_instruction_supported_parameters"
+  ]
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14349",
+  "status": "active",
+  "tests_run": 160,
+  "triggering": [
+   "test.python.transpiler.test_high_level_synthesis.TestHighLevelSynthesisInterface::test_control_flow"
+  ]
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14716",
+  "status": "active",
+  "tests_run": 161,
+  "triggering": [
+   "test.python.dagcircuit.test_dagcircuit.TestDagEquivalence::test_boxop_neq"
+  ]
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14728",
+  "status": "active",
+  "tests_run": 1935,
+  "triggering": [
+   "test.python.circuit.test_controlled_gate.TestControlledAnnotatedGate::test_controlled_cx",
+   "test.python.circuit.test_controlled_gate.TestControlledAnnotatedGate::test_controlled_x",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCorrectness::test_create_open_controlled_mcx_gates_43",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCorrectness::test_create_open_controlled_mcx_gates_49",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCorrectness::test_create_open_controlled_mcx_gates_61",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCorrectness::test_create_open_controlled_mcx_gates_67",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCorrectness::test_create_open_controlled_mcx_gates_79",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCorrectness::test_create_open_controlled_mcx_gates_85",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_02",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_04",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_06",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_08",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_10",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_12",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_14",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_16",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_18",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_20",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_22",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_24",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_26",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_28",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_30",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_32",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_34",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_36",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_38",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_39",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_40",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_41",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_42",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_44",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_45",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_46",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_47",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_48",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_50",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_51",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_52",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_53",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_54",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_56",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_57",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_58",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_59",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_60",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_62",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_63",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_64",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_65",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_66",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_68",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_69",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_70",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_71",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_72",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_74",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_75",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_76",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_77",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_78",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_80",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_81",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_82",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_83",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_84",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_86",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_87",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_88",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_89",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_mcx_gates_count_90",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_02",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_04",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_06",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_08",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_10",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_12",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_14",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_16",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_18",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_20",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_22",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_24",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_26",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_28",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_30",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_32",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_34",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_36",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_38",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_40",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_42",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_44",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_46",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_48",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_50",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_52",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_54",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_56",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_58",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_60",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_62",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_64",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_66",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_68",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_70",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_72",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_74",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_76",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_78",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_80",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_82",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_84",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_86",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_88",
+   "test.python.synthesis.test_multi_controlled_synthesis.TestMCSynthesisCounts::test_open_controlled_x_family_gates_count_90"
+  ]
+ },
+ {
+  "base": "2.2.3",
+  "fault": "14938",
+  "status": "active",
+  "tests_run": 71,
+  "triggering": [
+   "test.python.transpiler.test_vf2_layout.TestVF2LayoutSimple::test_complete_layout_with_idle_qubits_3",
+   "test.python.transpiler.test_vf2_layout.TestVF2LayoutSimple::test_complete_layout_with_idle_qubits_4",
+   "test.python.transpiler.test_vf2_post_layout.TestVF2PostLayout::test_complete_layout_with_idle_qubits_1",
+   "test.python.transpiler.test_vf2_post_layout.TestVF2PostLayout::test_complete_layout_with_idle_qubits_2",
+   "test.python.transpiler.test_vf2_post_layout.TestVF2PostLayout::test_complete_layout_with_idle_qubits_3",
+   "test.python.transpiler.test_vf2_post_layout.TestVF2PostLayout::test_complete_layout_with_idle_qubits_4"
+  ]
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15074",
+  "status": "active",
+  "tests_run": 140,
+  "triggering": [
+   "test.python.transpiler.test_sabre_swap.TestSabreSwap::test_sabre_swap_deepcopy",
+   "test.python.transpiler.test_sabre_swap.TestSabreSwap::test_sabre_swap_pickle"
+  ]
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15143",
+  "status": "active",
+  "tests_run": 40,
+  "triggering": [
+   "test.python.transpiler.test_basis_translator.TestBasisTranslator::test_loop_custom_gate_local_indices"
+  ]
+ },
+ {
+  "base": "2.2.3",
+  "fault": "15147",
+  "status": "active",
+  "tests_run": 14,
+  "triggering": [
+   "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_empty_circuit_1_ALAPScheduleAnalysis",
+   "test.python.transpiler.test_scheduling_padding_pass.TestSchedulingAndPaddingPass::test_empty_circuit_2_ASAPScheduleAnalysis"
+  ]
+ },
+ {
+  "base": "2.4.2",
+  "fault": "15436",
+  "status": "no trigger",
+  "tests_run": 20,
+  "triggering": []
+ },
+ {
+  "base": "2.4.2",
+  "fault": "15782",
+  "status": "no trigger",
+  "tests_run": 32,
+  "triggering": []
+ },
+ {
+  "base": "2.4.2",
+  "fault": "15875",
+  "status": "active",
+  "tests_run": 217,
+  "triggering": [
+   "test.python.transpiler.test_basis_translator.TestBasisTranslatorWithTarget::test_basis_nested_control_flow_op",
+   "test.python.visualization.test_circuit_text_drawer.TestCircuitControlFlowOps::test_inner_wire_map_control_op"
+  ]
+ },
+ {
+  "base": "2.4.2",
+  "fault": "16054",
+  "status": "active",
+  "tests_run": 25,
+  "triggering": [
+   "test.python.transpiler.test_remove_identity_equivalent.TestRemoveIdentityEquivalent::test_no_panic_on_parametervector_phase"
+  ]
+ },
+ {
+  "base": "2.5.2",
+  "fault": "15816",
+  "status": "active",
+  "tests_run": 23,
+  "triggering": [
+   "test.python.transpiler.test_remove_identity_equivalent.TestRemoveIdentityEquivalent::test_pauli_evo_equals_stdgate"
+  ]
+ },
+ {
+  "base": "2.5.2",
+  "fault": "15967",
+  "status": "no test files in fix",
+  "tests_run": 0,
+  "triggering": []
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16163",
+  "status": "active",
+  "tests_run": 86,
+  "triggering": [
+   "test.python.transpiler.test_commutative_optimization.TestCommutativeOptimization::test_nonsymmetric_gates_do_not_canel"
+  ]
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16175",
+  "status": "active",
+  "tests_run": 42,
+  "triggering": [
+   "test.python.circuit.test_tools.TestPiCheck::test_near_pi_over_k_no_redundant_coefficient"
+  ]
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16362",
+  "status": "active",
+  "tests_run": 199,
+  "triggering": [
+   "test.python.dagcircuit.test_dagcircuit.TestDagLayers::test_layers_do_not_copy_global_phase",
+   "test.python.dagcircuit.test_dagcircuit.TestDagLayers::test_serial_layers_do_not_copy_global_phase",
+   "test.python.transpiler.test_basic_swap.TestBasicSwap::test_preserves_global_phase",
+   "test.python.transpiler.test_basic_swap.TestBasicSwap::test_preserves_global_phase_when_swaps_inserted"
+  ]
+ },
+ {
+  "base": "2.5.2",
+  "fault": "16592",
+  "status": "timeout",
+  "tests_run": 97,
+  "triggering": []
+ }
+]
